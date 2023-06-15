@@ -24,7 +24,7 @@ function MyVerticallyCenteredModal(props) {
     const body = {
       email:email,
     }
-    axios.put('http://localhost:1060/update',JSON.stringify(body), {headers} )
+    axios.put('/update',JSON.stringify(body), {headers} )
     .then(res => {
       console.log(res);
       toast.success('Success!', {
@@ -60,7 +60,7 @@ function MyVerticallyCenteredModal(props) {
     const body = {
       email:email,
     }
-    axios.put('http://localhost:1060/removeImage',JSON.stringify(body), {headers} )
+    axios.put('/removeImage',JSON.stringify(body), {headers} )
     .then(res =>{ console.log(res);
       toast.success('Success !', {
         position: toast.POSITION.TOP_RIGHT,
