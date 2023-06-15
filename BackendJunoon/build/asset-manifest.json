@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b88aa38c.css",
+    "main.js": "/static/js/main.2a98e488.js",
+    "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
+    "static/media/fontpage.mp4": "/static/media/fontpage.25940e403d46afa1aeba.mp4",
+    "static/media/1.mp4": "/static/media/1.451ea306aea496824449.mp4",
+    "static/media/Fiestgallery.jpg": "/static/media/Fiestgallery.9c0ce4f75f3bff78ceb8.jpg",
+    "static/media/vikastech.png": "/static/media/vikastech.394a9c34a32a31218046.png",
+    "static/media/gautamtech.png": "/static/media/gautamtech.79d3fdda6dd0db1f94c0.png",
+    "static/media/Fiesta memory.jpg": "/static/media/Fiesta memory.1038347c0585bda9fd7f.jpg",
+    "static/media/saurabh.jpg": "/static/media/saurabh.5893c69691b6c2ea7db8.jpg",
+    "static/media/acting_drama.jpg": "/static/media/acting_drama.503a0a2b601f2e8fd3d9.jpg",
+    "static/media/vinay.jpg": "/static/media/vinay.a44036edb393b41edbd8.jpg",
+    "static/media/literature_debate.jpg": "/static/media/literature_debate.13b1aaee446deb40518f.jpg",
+    "static/media/music_dance.jpg": "/static/media/music_dance.d6a82b0bf311b43236c5.jpg",
+    "static/media/fine_arts.jpg": "/static/media/fine_arts.1b1024195213507e7469.jpg",
+    "static/media/randhir.jpg": "/static/media/randhir.1360f8215c4bf916e0e0.jpg",
+    "static/media/shalinitech.jpg": "/static/media/shalinitech.bf646571fd4472321a22.jpg",
+    "static/media/aditya.jpg": "/static/media/aditya.c75ff8118398163aa132.jpg",
+    "static/media/komal.jpg": "/static/media/komal.d153f58404a52a612b64.jpg",
+    "static/media/ravi.jpg": "/static/media/ravi.abaa214732b3f7e27316.jpg",
+    "static/media/fiesta-logo.png": "/static/media/fiesta-logo.bd6fbca5baa8f830bf69.png",
+    "static/media/jahanvi.jpg": "/static/media/jahanvi.ee08a270f309e9dccb14.jpg",
+    "static/media/akash.jpg": "/static/media/akash.0c3b0d7b586bed55ddf7.jpg",
+    "static/media/saqib.jpg": "/static/media/saqib.1de59e4747cae0767639.jpg",
+    "static/media/shivam.jpg": "/static/media/shivam.3e04f5cff3a5c18ec842.jpg",
+    "static/media/ved.jpg": "/static/media/ved.4845a00bf08fd2902629.jpg",
+    "static/media/fiesta mask final logo.png": "/static/media/fiesta mask final logo.40a76b3d7926bf695e1a.png",
+    "static/media/vi.jpg": "/static/media/vi.fbf6b0574c0c5226d58b.jpg",
+    "static/media/paytm.jpg": "/static/media/paytm.cf32f6d1f47f67d4561a.jpg",
+    "index.html": "/index.html",
+    "main.b88aa38c.css.map": "/static/css/main.b88aa38c.css.map",
+    "main.2a98e488.js.map": "/static/js/main.2a98e488.js.map",
+    "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b88aa38c.css",
+    "static/js/main.2a98e488.js"
+  ]
+}
