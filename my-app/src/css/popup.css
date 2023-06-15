@@ -1,0 +1,13 @@
+
+  
+  .imagePopup{
+    height: 20vh;
+    width: 10vw;
+    display: flex;
+    justify-content: left;
+
+  }
+  .cross{
+    display: flex;
+    justify-content: end;
+  }

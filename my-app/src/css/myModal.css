@@ -1,0 +1,15 @@
+.model{
+    background-color: black;
+    color:#fff;
+}
+.modalTitle{
+    display: flex;
+    justify-content:right;
+}
+.modalBodyImage{
+    height: 30vh;
+    width: 12vw;
+}
+
+
+

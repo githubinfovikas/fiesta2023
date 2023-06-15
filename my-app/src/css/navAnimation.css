@@ -1,0 +1,11 @@
+.nav-animation  {
+    transition: transform 0.3s ease-out both;
+    
+}
+
+.nav-animation:hover {
+    transform: translateY(5px);
+    
+}
+
+

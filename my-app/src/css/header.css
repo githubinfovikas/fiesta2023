@@ -1,0 +1,44 @@
+#nav-dropdown{
+    color: rgb(225, 9, 9);
+    font-weight: bold;
+    background-color: rgb(255, 243, 7);
+}
+.navbar.fixed{
+    background-color: rgb(240, 0, 0);
+    transition: 3s ease-in-out;
+}
+.navbar.fixed button{
+    background-color: rgb(0, 243, 0);
+}
+
+
+
+#basic-nav-dropdown{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.navbg{
+    background-color: black;
+    color:aqua;
+}
+
+.hower:hover{
+    background-color: black;
+    
+    color:rgb(228, 184, 39);
+    transition: 0.01s;
+
+    
+}
+.hower{
+    margin-left: 20px;
+}
+
+.custom-toggler {
+    color: #000000;
+    border-color: #e3e3e3;
+    background-color: rgb(255, 0, 0);
+  }
+
+
