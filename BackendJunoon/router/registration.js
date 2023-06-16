@@ -18,7 +18,8 @@ router.post('/register-event', async (req, res) => {
                 })
             }else{
                 let data = await RegistrationModel.create(req.body);
-                let registerationDetails = await RegistrationModel.findOne({ leaderUserID: req.body.leaderUserID, event: req.body.event,memberNameAndUserID:req.body.memberNameAndUserID });
+                let registerationDetails = await RegistrationModel.findOne({ leaderUserID: req.body.leaderUserID, event: req.body.event});
+                let member = registerationDetails.memberNameAndUserID;
                 let mailOption = {
                     from: 'vikasdbg453@gmail.com',
                     to: req.body.email,
@@ -27,7 +28,7 @@ router.post('/register-event', async (req, res) => {
                       <p>Event Name:<strong> ${registerationDetails.event}</strong></p>
                       <p>Leader Name:<strong> ${registerationDetails.leaderName}</strong></p>
                       <p>User ID:<strong>${registerationDetails.leaderUserID}</strong></p>
-                      <p>User ID:<strong>${registerationDetails.memberNameAndUserID}</strong></p>
+                      <p>User ID:<strong>${JOSN.stringify(member)}</strong></p>
                       <a href="fiestamit.in"><strong>Official Page</strong></a>
                      `
                 }
