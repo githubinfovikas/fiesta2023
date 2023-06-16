@@ -22,7 +22,7 @@ router.post('/register-event', async (req, res) => {
                 let mailOption = {
                     from: 'vikasdbg453@gmail.com',
                     to: req.body.email,
-                    subject: `Registered successfully in ${req.body.event}`,
+                    subject: `Registered successfully for ${req.body.event}`,
                     html: `
                       <p>Event Name:<strong> ${registerationDetails.event}</strong></p>
                       <p>Leader Name:<strong> ${registerationDetails.leaderName}</strong></p>

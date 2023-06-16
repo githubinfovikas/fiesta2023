@@ -70,7 +70,7 @@ router.post('/upload', async (req, res) => {
             let mailOptions = {
                 from: 'vikasdbg453@gmail.com',
                 to: studentDetails.email,
-                subject: "Payment Completed Successfully in Fiesta'23",
+                subject: "Payment Completed Successfully for Fiesta'23",
                 html: `
                 <p>College:<strong> ${studentDetails.collegeName}</strong></p>
                 <p>Name:<strong> ${studentDetails.name}</strong></p>
