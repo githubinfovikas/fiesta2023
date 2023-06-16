@@ -76,7 +76,7 @@ router.post('/upload', async (req, res) => {
                 <p>Name:<strong> ${studentDetails.name}</strong></p>
                 <p>User ID:<strong>${studentDetails.userID}</strong></p>
                 <p>Your User ID will be Activated Within 24 hours</p>
-                <a href="junoonmit.netlify.app"><strong>Official Page </strong></a> <br/><br/>
+                <a href="fiestamit.in"><strong>Official Page </strong></a> <br/><br/>
                 <a href="https://forms.gle/7PnWsLAPbGD3qsAn7"><strong>T-Shirt Form</strong></a>
               `
             }

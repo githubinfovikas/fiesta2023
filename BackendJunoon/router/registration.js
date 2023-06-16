@@ -27,8 +27,8 @@ router.post('/register-event', async (req, res) => {
                       <p>Event Name:<strong> ${registerationDetails.event}</strong></p>
                       <p>Leader Name:<strong> ${registerationDetails.leaderName}</strong></p>
                       <p>User ID:<strong>${registerationDetails.leaderUserID}</strong></p>
-                      <p>User ID:<strong>${registerationDetails.memberNameAndUserID}</strong></p>
-                      <a href="junoonmit.netlify.app"><strong>Official Page</strong></a>
+                      <p>User ID:<strong>${req.body.memberNameAndUserID}</strong></p>
+                      <a href="fiestamit.in"><strong>Official Page</strong></a>
                      `
                 }
                 await sendMail(mailOption);

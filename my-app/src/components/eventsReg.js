@@ -141,7 +141,7 @@ const EventRegistrationForm = () => {
 
     return (
         <div className='bg-secondary'>
-            <ToastContainer />
+            <ToastContainer />z
             <Container className='mt-3'>
                 <Row className="d-flex justify-content-center align-items-center">
                     <Col md={8} lg={6} xs={12}>
@@ -254,7 +254,7 @@ const EventRegistrationForm = () => {
                                     </div>
                                 </div>
                             </Card.Body>
-                            <a href='/form-fill' style={{ textDecoration: 'none' }} ><b>How to form fill</b></a>
+                            <a href='/form-fill' style={{ textDecoration: 'none' }} ><b>How to fill form</b></a>
                             <p>Any issue regarding registration then you are contact me(9798525268)</p>
                         </Card>
                     </Col>

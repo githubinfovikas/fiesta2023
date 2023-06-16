@@ -257,7 +257,7 @@ let UserIdReg = () => {
                                         <Form.Group controlId="paymentImage" className=' mb-2  d-flex ' >
                                             <Form.Control type="file" placeholder="upload" onChange={convertToBase64} required />
                                         </Form.Group>
-                                        <p>File size excepted less then 200 kb</p>
+                                        <p>upload fee recept excepted less then 250 kb</p>
 
 
 
@@ -272,7 +272,6 @@ let UserIdReg = () => {
                                 </div>
 
                             </Card.Body>
-                            {/* <a target='blank' href='https://drive.google.com/file/d/109cXrsUSCfKavF8Zs87J7uUbAIyzcjwv/view?usp=sharing' style={{ textDecoration: 'none' }} ><b>How to fill form</b></a> */}
                             <a href='/form-fill' style={{ textDecoration: 'none' }} ><b>How to fill form </b></a>
                         </Card>
                     </Col>
