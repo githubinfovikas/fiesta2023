@@ -6,7 +6,7 @@ let sendMail = require('../services/mail.service');
 let StudentModel = require('../models/student');
 let router = express();
 router.use(cors());
-router.post('https://dolphin-app-yn8m5.ondigitalocean.app/register-event', async (req, res) => {
+router.post('/register-event', async (req, res) => {
     try {
         let val = await RegistrationModel.findOne({ leaderUserID: req.body.leaderUserID, event: req.body.event });
         if (!val) {
