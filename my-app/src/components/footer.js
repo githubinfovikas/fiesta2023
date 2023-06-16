@@ -31,7 +31,7 @@ function Footer() {
         
                     <NavDropdown title={<span className="text-white my-auto fw-bold "><span class="hower">Helpful Link</span></span>} id="basic-nav-dropdown">
                        <NavDropdown.Item className="navbg" href="/sponser">Presentation</NavDropdown.Item>
-                        <NavDropdown.Item className="navbg" href="/rulebook">Rulebook</NavDropdown.Item>
+                        <NavDropdown.Item className="navbg" href="#">Rulebook</NavDropdown.Item>
                        <NavDropdown.Item className="navbg" href="https://forms.gle/7PnWsLAPbGD3qsAn7">T-Shirt</NavDropdown.Item>
                         <NavDropdown.Item className='navbg' href='/form-fill'>How to fill form </NavDropdown.Item>
                     </NavDropdown>
@@ -63,11 +63,11 @@ function Footer() {
                             <i class="fa-brands fa-square-youtube white ms-4 p-1 fa-beat fa-2x " style={{ color: "#41d2a7", }}></i>
                         </a>
 
-                        <a href="https://youtube.com/@junoonmit2022" target='blank'>
+                        <a href="https://t.me/fiesta_mitmuzaffarpur" target='blank'>
                             <i class="fa-brands fa-telegram white ms-4 p-1 fa-beat fa-2x " style={{ color: "#41d2a7", }}></i>
                         </a>
 
-                        <a href="https://youtube.com/@junoonmit2022" target='blank'>
+                        <a href="#" target='blank'>
                             <i class="fa-brands fa-square-whatsapp white ms-4 p-1 fa-beat fa-2x " style={{ color: "#41d2a7", }}></i>
                         </a>
 

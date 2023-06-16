@@ -33,7 +33,7 @@ function MyVerticallyCenteredModal(props) {
         </Modal.Body>
 
         <Modal.Footer>
-          <Nav.Link target='blank' href="/rulebook" className='text-light nav-animation ' variant='outline-success'><b className='btn btn-danger hower'>Rulebook</b></Nav.Link>
+          <Nav.Link target='blank' href="#" className='text-light nav-animation ' variant='outline-success'><b className='btn btn-danger hower'>Rulebook</b></Nav.Link>
           <span></span>
           <Nav.Link href="/event-reg" className='text-light nav-animation ' variant='outline-success'><b className='btn btn-danger hower'>Event Register</b></Nav.Link>
 

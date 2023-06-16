@@ -63,13 +63,13 @@ const data = {
             id: 4,
             imgSrc: "https://imgur.com/qHwNJPD.png",
             title: 'Aman Ranjan Jha',
-            about: 'Literature and Debate'
+            about: 'Literature & Debate'
         },
         {
             id: 4,
             imgSrc: "https://imgur.com/S7f51lI.png",
             title: 'Om Prakash',
-            about: 'Acting & Drama Society'
+            about: 'Acting & Drama '
         },
         {
             id: 4,
@@ -106,25 +106,25 @@ const data = {
             id: 4,
             imgSrc: "https://imgur.com/QjCNTRJ.png",
             title: 'Pawan Kumar',
-            about: 'Literature and Debate'
+            about: 'Literature & Debate'
         },
         {
             id: 4,
             imgSrc: "https://imgur.com/QjCNTRJ.png",
             title: 'Vivek Kumar',
-            about: 'Literature and Debate'
+            about: 'Literature & Debate'
         },
         {
             id: 4,
             imgSrc: "https://imgur.com/QjCNTRJ.png",
             title: 'Rishi',
-            about: 'Literature and Debate'
+            about: 'Literature & Debate'
         },
         {
             id: 4,
             imgSrc: "https://imgur.com/2oXE6Xl.png",
             title: 'Bhagwat',
-            about: 'Music and Dance'
+            about: 'Music & Dance'
         },
 
 
@@ -182,7 +182,7 @@ const data = {
         {
             id: 4,
             imgSrc: "https://imgur.com/A2Mx25i.png",
-            title: 'Shwet Kumar',
+            title: 'Shwet Raj',
             about: 'Music & Dance'
         },
         {
@@ -265,27 +265,27 @@ const data = {
         {
             id: 4,
             title: 'Rajeev Kumar ',
-            about: 'Literature and Debate'
+            about: 'Literature & Debate'
         },
         {
             id: 4,
             title: 'Vikash Sharma',
-            about: 'Literature and Debate'
+            about: 'Literature & Debate'
         },
         {
             id: 4,
             title: 'Pramod Kumar',
-            about: 'Music and Dance'
+            about: 'Music & Dance'
         },
         {
             id: 4,
             title: 'Pratyaksh Raj',
-            about: 'Literature and Debate '
+            about: 'Literature & Debate '
         },
         {
             id: 4,
             title: 'Keshav kant mishra ',
-            about: 'Music and Dance'
+            about: 'Music & Dance'
         },
         {
             id: 4,

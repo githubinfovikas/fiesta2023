@@ -69,7 +69,7 @@ const Members = () => {
                             <div className="card " >
                                 <img src={vi} className="card-img-top" alt="..." />
                                 <div className="card-body">
-                                    <p className="card-text">Prof. Shweta Kumari (IT) <br></br> Fine & Arts</p>
+                                    <p className="card-text">Prof. Shweta Kumari (IT) <br></br> Fine Arts</p>
                                 </div>
                             </div>
                         </div>
@@ -93,7 +93,7 @@ const Members = () => {
                             <div className="card" >
                                 <img src={aditya} className="card-img-top" alt="..." />
                                 <div className="card-body">
-                                    <p className="card-text">Aditya Ashwini <br></br>Music and Dance</p>
+                                    <p className="card-text">Aditya Ashwini <br></br></p>
                                 </div>
                             </div>
                         </div>
@@ -103,7 +103,7 @@ const Members = () => {
                             <div className="card" >
                                 <img src={komal} className="card-img-top" alt="..." />
                                 <div className="card-body">
-                                    <p className="card-text">Komal rani<br></br>Literature & Debate</p>
+                                    <p className="card-text">Komal rani<br></br></p>
                                 </div>
                             </div>
                         </div>
@@ -112,7 +112,7 @@ const Members = () => {
                             <div className="card " >
                                 <img src={saurabh} className="card-img-top" alt="..." />
                                 <div className="card-body">
-                                    <p className="card-text">Saurabh <br></br>Fine & arts </p>
+                                    <p className="card-text">Saurabh <br></br></p>
                                 </div>
                             </div>
                         </div>
@@ -121,7 +121,7 @@ const Members = () => {
                             <div className="card " >
                                 <img src={saqib} className="card-img-top" alt="..." />
                                 <div className="card-body">
-                                    <p className="card-text">Md Saquib Alam <br></br> Acting & Drama</p>
+                                    <p className="card-text">Md Saquib Alam <br></br></p>
                                 </div>
                             </div>
                         </div>
@@ -130,7 +130,7 @@ const Members = () => {
                             <div className="card " >
                                 <img src={akash} className="card-img-top" alt="..." />
                                 <div className="card-body">
-                                    <p className="card-text">Akash Kumar<br></br> Literature & Debate</p>
+                                    <p className="card-text">Akash Kumar<br></br></p>
                                 </div>
                             </div>
                         </div>
@@ -139,7 +139,7 @@ const Members = () => {
                             <div className="card " >
                                 <img src={jahanvi} className="card-img-top" alt="..." />
                                 <div className="card-body">
-                                    <p className="card-text">Jahanvi Kumari <br></br> Music & Dance</p>
+                                    <p className="card-text">Jahanvi Kumari <br></br></p>
                                 </div>
                             </div>
                         </div>
@@ -182,7 +182,7 @@ const Members = () => {
                             <div className="card " >
                                 <img src={ved} className="card-img-top" alt="..." />
                                 <div className="card-body">
-                                    <p className="card-text">Ved Kumar <br></br> Fine & Arts</p>
+                                    <p className="card-text">Ved Prakash <br></br> Fine Arts</p>
                                 </div>
                             </div>
                         </div>
