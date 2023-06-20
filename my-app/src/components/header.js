@@ -35,7 +35,6 @@ function Header() {
               <Nav.Link href="/details" className='text-light nav-animation'><b><span className="hower ">Accommodation</span></b></Nav.Link>
               <div style={{ color: 'white' }}>
                 <NavDropdown title={<span className="text-white my-auto fw-bold "><span class="hower">Notification</span></span>} id="basic-nav-dropdown">
-                  <NavDropdown.Item className="navbg" href="https://forms.gle/7PnWsLAPbGD3qsAn7">T-Shirt</NavDropdown.Item>
                   <NavDropdown.Item className="navbg" href="/sponser">Presentation</NavDropdown.Item>
                   <NavDropdown.Item className="navbg" target='blank' href="https://drive.google.com/file/d/10XvbRMR6iSnC1lrXZvJfpYkq68_8QC7Q/view?usp=sharing">Acting Drama Rulebook</NavDropdown.Item>
                   <NavDropdown.Item className="navbg" target='blank' href="https://drive.google.com/file/d/10W_3AnqToQnIZJTmU1SM908DC5m3BdyQ/view?usp=sharing">Music Dance Rulebook</NavDropdown.Item>

@@ -13,6 +13,7 @@ let UserIdReg = () => {
     let [document, newDocument] = useState("select document");
     let [documentID, newDocumentID] = useState("");
     let [email, newEmail] = useState("");
+    let [tshirt,newTshirt] = useState("");
     const [image, setImage] = useState();
     const [paymentEmail,newPaymentEmail] = useState("");
     const [baseUrl, setBaseUrl] = useState('');
@@ -35,8 +36,12 @@ let UserIdReg = () => {
         newDocument(event.target.value);
         // console.log(event.target.value);
     }
+
     let paymentEmailHandler =(event)=>{
         newPaymentEmail(event.target.value);
+    }
+    let tshirtHandler = (event) => {
+        newTshirt(event.target.value);
     }
    
     useEffect(() => {
@@ -115,10 +120,11 @@ let UserIdReg = () => {
             email: email,
             phoneNo: phoneNo,
             document: document,
+            tshirt:tshirt,
         }
         console.log(studentDetails);
         try {
-            const response = await axios.post(`/register`, JSON.stringify(studentDetails), {
+            const response = await axios.post(`http://localhost:1060/register`, JSON.stringify(studentDetails), {
                 headers: { 'Content-Type': 'application/json' }
             });
             let { data } = response;
@@ -167,6 +173,7 @@ let UserIdReg = () => {
         // newCollegeName('');
         // newDocumentID('');
         // newDocument();
+        // newTshirt();
     }
 
 
@@ -223,6 +230,19 @@ let UserIdReg = () => {
                                                 <i class="fa-solid fa-id-card-clip  fa-2x p-1"></i>
                                                 <Form.Control type="text" placeholder="Enter ID Number Above Select Document" value={documentID} onChange={documentIDHandler} />
                                             </Form.Group>
+
+                                            <Form.Group controlId="formSelector" className='mb-2 d-flex' >
+                                                {/* <i class="fa-sharp fa-solid fa-file-export fa-2x p-1" ></i> */}
+                                                <i class="fa-duotone fa-solid fa-shirt fa-2x p-1"></i>
+                                                <Form.Select onChange={tshirtHandler} required>
+                                                    <option >Size of T-shirt</option>
+                                                    <option >S</option>
+                                                    <option  >M</option>
+                                                    <option>L</option>
+                                                </Form.Select>
+                                            </Form.Group>
+
+                                            
                                             <p >Please recheck all details.</p>
 
                                             <Button type="handleSubmit" variant='success' className='mt-3 mb-5 ereg hower mx-auto' >

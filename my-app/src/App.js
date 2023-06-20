@@ -21,7 +21,6 @@ import Video from './components/video';
 import './App.css';
 import FormFill from './components/help/formFill';
 import Sponser from './components/help/sponser';
-import Rulebook from './components/help/rulebook';
 import Admin from './components/Admin/admin'
 import Registration from './components/Admin/registrationApi';
 import AdminHeader from './components/Admin/adminHeader';
@@ -54,7 +53,6 @@ function App() {
           <Route path='juniorCoordinator' element={<div><Header/><Junior/><Footer/></div>}/>
           <Route path='form-fill' element={<div><Header/><FormFill/></div>}/>
           <Route path='sponser' element={<div><Header/><Sponser/></div>}/>
-          <Route path='rulebook' element={<div><Header/><Rulebook/></div>}/>
           <Route path='aksdfjl/adsfjlkasd/akjfdlkajflskd/aslkdjflkasjf/akfjdsklsdoruoi/eroiikjvc/aksjdfklaioe/lskfdjlk/skdjflksj/rwpeopweri/fkaldkf/adkjfeouriwuro/kdajflasdjfoiuew.in' element={<div><AdminHeader/><Admin/></div>}/>
           <Route path='/akjlfdl/kjadljire/junoon/4389823/fiesta/akldfkj3/event/lvikas/uweoeowi/eopwukdf/2023/jls/mit/akdfj/muzaffarpur/to/kaldsfj/lkj/bihar/india/college/sdkfj/adjkfl.in' element={<div><AdminHeader/><Registration/></div>}/>
 

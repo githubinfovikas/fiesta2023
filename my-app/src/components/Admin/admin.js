@@ -36,13 +36,13 @@ function Admin() {
     });
     useEffect(() => {
         const getBaseUrl = () => {
-          const { protocol, host } = window.location;
-          const baseUrl = `${protocol}//${host}`;
-          setBaseUrl(baseUrl);
+            const { protocol, host } = window.location;
+            const baseUrl = `${protocol}//${host}`;
+            setBaseUrl(baseUrl);
         };
-    
+
         getBaseUrl();
-      }, []);
+    }, []);
     return (
         <>
             <div className='bg-secondary'>
@@ -64,9 +64,17 @@ function Admin() {
                     }) : imageList[0].map((item, index) => {
                         return (
                             <div key={index} className='col-lg-3 col-sm-12 m-sm-0 pb-4 box'>
-                                <Card className="card-animation m-2" onClick={() => { setModalData(prevstate => ({ ...prevstate, show: true, data:item })) }}>
+                                <Card className="card-animation m-2" onClick={() => { setModalData(prevstate => ({ ...prevstate, show: true, data: item })) }}>
                                     <Card.Img variant="top" src={item.image} style={{ height: '50vh' }} />
-                                    <Card.Body> {item.collegeName} <br></br> {item.name}   <br></br> {item.email} <br></br>{item.document} : {item.documentID} <br></br> {item.userID}<br></br> <b style={{color:"green"}}>{item.paid ? "Paid : true" : <b style={{color:'red'}}>Paid : false</b> }</b> <br></br> </Card.Body>
+                                    <Card.Body>
+                                        {item.collegeName} <br></br>
+                                        {item.name}   <br></br>
+                                        {item.email} <br></br>
+                                        {item.document} : {item.documentID} <br></br>
+                                        {item.userID}<br></br>
+                                        T-Shirt Size: {item.tshirt}<br></br>
+                                        <b style={{ color: "green" }}>{item.paid ? "Paid : true" : <b style={{ color: 'red' }}>Paid : false</b>}</b> <br></br>
+                                    </Card.Body>
 
                                 </Card>
                             </div>

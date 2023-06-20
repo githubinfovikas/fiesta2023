@@ -15,9 +15,9 @@ router.post('/register', async (req, res) => {
             email: req.body.email,
             document: req.body.document,
             documentID: req.body.documentID,
+            tshirt:req.body.tshirt,
             userID: userID,
         }
-
         let valueEmail = await StudentModel.findOne({ email: req.body.email });
         let valuePhone = await StudentModel.findOne({ phoneNo: req.body.phoneNo });
         if (!valueEmail && !valuePhone) {
