@@ -26,7 +26,7 @@ const MainPage = () => {
                     <div className='mb-5 ' style={{ marginTop: '10vh' }}>
                         <b style={{ color: 'white', }}><spam>The Inter College Cultural Fest of MIT Muzaffarpur</spam></b><br></br><br></br>
                         <marquee behavior="scroll" direction="left" scrollamount="15">
-                        <b style={{ color: 'orange', fontSize: '4vh', fontWeight: '800', textShadow: '2px 2px 5px red' }}><pre>9 JULY TO 11 JULY</pre></b>
+                            <b style={{ color: 'orange', fontSize: '4vh', fontWeight: '800', textShadow: '2px 2px 5px red' }}><pre>9 JULY TO 11 JULY</pre></b>
                         </marquee>
                     </div>
                     <div className="col-lg-12 col-sm-12 mt-5" >
@@ -48,37 +48,47 @@ const MainPage = () => {
 
 
 
-                <div className='row mx-auto  bg-lite' >
-                    <div className="col-lg-3  col-sm-12 m-sm-0 pb-5 card-animation " >
+                <div className='row mx-auto ' >
+                    <div className="col-lg-3  col-sm-12 m-sm-0 pb-5 card-animation  "   >
                         <Card  >
+                        <a href='/acting-drama'>
                             <Card.Img variant="top" src={actingDrama} />
+                        </a>
                             <Card.Body >
-                                <a href='/acting-drama' className='btn btn-primary hower mx-auto'style={{width:'30vh'}}  > ACTING & DRAMA </a>
+                                <a href='/acting-drama' className='btn btn-primary hower mx-auto' style={{ width: '30vh' }}  > ACTING & DRAMA </a>
                             </Card.Body>
                         </Card>
                     </div>
+
                     <div className="col-lg-3 col-sm-12 m-sm-0 pb-5 card-animation">
                         <Card >
-                            <Card.Img variant="top" src={musicDance} />
+                            <a href='/music-dance'>
+                                <Card.Img variant="top" src={musicDance} />
+                            </a>
                             <Card.Body >
-                                <a href='/music-dance' className='btn btn-primary hower mx-auto' style={{width:'30vh'}} >MUSIC & DANCE </a>
+                                <a href='/music-dance' className='btn btn-primary hower mx-auto' style={{ width: '30vh' }} >MUSIC & DANCE </a>
                             </Card.Body>
                         </Card>
                     </div>
+
                     <div className="col-lg-3 col-sm-12 m-sm-0 pb-5 card-animation">
                         <Card >
-                            <Card.Img variant="top" src={litreture} />
+                            <a href='/literature-debate'>
+                                <Card.Img variant="top" src={litreture} />
+                            </a>
                             <Card.Body>
-                                <a href='/literature-debate' className='btn btn-primary hower mx-auto' style={{width:'30vh'}}>LITERATURE & DEBATE</a>
+                                <a href='/literature-debate' className='btn btn-primary hower mx-auto' style={{ width: '30vh' }}>LITERATURE & DEBATE</a>
                             </Card.Body>
 
                         </Card>
                     </div>
                     <div className="col-lg-3 col-sm-12 m-sm-0 pb-5 card-animation">
                         <Card>
+                        <a href='/fine-arts'>
                             <Card.Img variant="top" src={fineArts} />
+                            </a>
                             <Card.Body>
-                                <a href='/fine-arts' className='btn btn-primary hower mx-auto' style={{width:'30vh'}}>FINE ARTS</a>
+                                <a href='/fine-arts' className='btn btn-primary hower mx-auto' style={{ width: '30vh' }}>FINE ARTS</a>
                             </Card.Body>
                         </Card>
                     </div>

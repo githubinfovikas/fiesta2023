@@ -14,7 +14,7 @@ function Events() {
     show: false,
     data: {}
   });
-
+  
   return (
     <>
       <div className='bg-secondary'>
@@ -24,15 +24,15 @@ function Events() {
           <br></br>
         </div>
 
-        < div className='row me-lg-3 ms-lg-3'>
+        < div className='row me-lg-3 ms-lg-3  '>
           {
             Data.actingDrama.map((item, index) => {
 
               return (<>
 
-                <div className="col-lg-3 col-sm-12  pb-5">
-                  <Card className="card-animation" onClick={() => { setModalData(prevstate => ({ ...prevstate, show: true, data: item })) }}>
-                    <Card.Img variant="top" src={item.imgSrc} />
+                <div className="col-lg-3 col-sm-12  pb-5 mx-auto " style={{padding:'40px'}}>
+                  <Card className="card-animation card-border" onClick={() => { setModalData(prevstate => ({ ...prevstate, show: true, data: item })) }}>
+                    <Card.Img variant="top" src={item.imgSrc}  style={{ height: '38vh' }}  />
                     <Card.Body>
                       <Card.Title>{item.title}</Card.Title>
                     </Card.Body>

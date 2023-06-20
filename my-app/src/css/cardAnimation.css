@@ -20,3 +20,29 @@
 
 
 
+
+
+
+
+@keyframes cardBorderAnimation {
+  0% {
+    border-color: transparent;
+  }
+  
+  50% {
+    border-color: #ff0000;
+  }
+  100% {
+    border-color: transparent;
+  }
+}
+
+.card-border {
+  animation: cardBorderAnimation 2s infinite;
+  border:solid 3px;
+}
+
+.card-border:hover {
+  animation: none; /* Disable animation when hovering */
+  border-color: #00ffff; /* Change border color when hovering */
+}

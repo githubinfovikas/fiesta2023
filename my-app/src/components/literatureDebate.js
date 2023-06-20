@@ -28,9 +28,9 @@ function LiteratureDebate() {
 
               return (<>
 
-                <div className="col-lg-3 col-sm-12 m-sm-0 pb-5">
-                  <Card className="card-animation" onClick={() => { setModalData(prevstate => ({ ...prevstate, show: true, data: item })) }}>
-                    <Card.Img variant="top" src={item.imgSrc} style={{ height: '50vh' }} />
+                <div className="col-lg-3 col-sm-12 m-sm-0 pb-5" style={{padding:'40px'}}>
+                  <Card className="card-animation card-border" onClick={() => { setModalData(prevstate => ({ ...prevstate, show: true, data: item })) }}>
+                    <Card.Img variant="top" src={item.imgSrc}  style={{ height: '38vh' }} />
                     <Card.Body>
                       <Card.Title>{item.title}</Card.Title>
 
