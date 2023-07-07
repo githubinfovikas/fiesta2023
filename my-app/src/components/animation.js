@@ -56,7 +56,7 @@ function Footer() {
                                     aria-hidden="true"
                                 />
                                 
-                                    <b style={{ textDecoration: 'none' }} > Click Here..!</b>
+                                    <b style={{ textDecoration: 'none' }} > Click on the logo!</b>
                                 </marquee>
 
 

@@ -26,7 +26,8 @@ const MainPage = () => {
                     <div className='mb-5 ' style={{ marginTop: '10vh' }}>
                         <b style={{ color: 'white', }}><spam>The Inter College Cultural Fest of MIT Muzaffarpur</spam></b><br></br><br></br>
                         <marquee behavior="scroll" direction="left" scrollamount="15">
-                            <b style={{ color: 'orange', fontSize: '4vh', fontWeight: '800', textShadow: '2px 2px 5px red' }}><pre>9 JULY TO 11 JULY</pre></b>
+                            <b style={{ color: 'orange', fontSize: '4vh', fontWeight: '800', textShadow: '2px 2px 5px red' }}><pre>10<sup>th</sup> TO 12<sup>th</sup> AUGUST</pre></b>
+
                         </marquee>
                     </div>
                     <div className="col-lg-12 col-sm-12 mt-5" >

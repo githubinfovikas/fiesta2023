@@ -194,6 +194,7 @@ const EventRegistrationForm = () => {
                                                     <option  >Snappers (Photography-Online Events) </option>
 
                                                 </Form.Select>
+                                                
                                             </Form.Group>
                                             <Form.Group controlId="GroupLeaderName" className='mb-2 formheader' >
                                                 <FormLabel >Group Leader Name</FormLabel>
