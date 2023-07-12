@@ -72,6 +72,7 @@ function Admin() {
                                         {item.email} <br></br>
                                         {item.document} : {item.documentID} <br></br>
                                         {item.userID}<br></br>
+                                        Tr. ID:{item.trID}<br></br>
                                         T-Shirt Size: {item.tshirt}<br></br>
                                         <b style={{ color: "green" }}>{item.paid ? "Paid : true" : <b style={{ color: 'red' }}>Paid : false</b>}</b> <br></br>
                                     </Card.Body>

@@ -20,7 +20,7 @@ router.post('/register-event', async (req, res) => {
                 let data = await RegistrationModel.create(req.body);
                 let registerationDetails = await RegistrationModel.findOne({ leaderUserID: req.body.leaderUserID, event: req.body.event});
                 let mailOption = {
-                    from: 'vikasdbg453@gmail.com',
+                    from: 'junoonmit@gmail.com',
                     to: req.body.email,
                     subject: `Registered successfully for ${req.body.event}`,
                     html: `

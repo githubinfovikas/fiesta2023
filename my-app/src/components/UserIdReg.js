@@ -15,6 +15,7 @@ let UserIdReg = () => {
     let [email, newEmail] = useState("");
     let [tshirt,newTshirt] = useState("");
     const [image, setImage] = useState();
+    let [trID,newTrID] = useState("");
     const [paymentEmail,newPaymentEmail] = useState("");
     const [baseUrl, setBaseUrl] = useState('');
     let nameHandler = (event) => {
@@ -42,6 +43,9 @@ let UserIdReg = () => {
     }
     let tshirtHandler = (event) => {
         newTshirt(event.target.value);
+    }
+    let TrIDHandler = (event) =>{
+        newTrID(event.target.value);
     }
    
     useEffect(() => {
@@ -80,9 +84,10 @@ let UserIdReg = () => {
         const requestBody = JSON.stringify({
             image: image,
             email: paymentEmail,
+            trID: trID,
         })
 
-        axios.post(`/upload`, requestBody, { headers })
+        axios.post(`http://localhost:1060/upload`, requestBody, { headers })
             .then(response => {
                 console.log('Post created successfully');
                 console.log('Response:', response.data);
@@ -257,7 +262,7 @@ let UserIdReg = () => {
                                             <div className="card" style={{ border: 'none' }} >
                                                 <img src={paytm} className="card-img-top" alt="..." />
                                                 <div className="card-body">
-                                                    <p className="card-text">UPI ID : vikasdbg453@paytm<br></br><b>Pay For All Event participate : 900/-</b>  <br/><b>Only Online Event participate : 199/-</b> </p>
+                                                    <p className="card-text"><b>Pay For All Event participation : ₹ 900/-</b>  <br/><b>Only Online Event participation : ₹ 199/-</b> </p>
                                                 </div>
                                             </div>
 
@@ -267,7 +272,10 @@ let UserIdReg = () => {
                                             <i className="fa-solid fa-envelope fa-2x p-1" ></i>
                                             <Form.Control type="email" placeholder="Email" value={paymentEmail} onChange={paymentEmailHandler} required />
                                         </Form.Group>
-
+                                        
+                                        <Form.Group controlId="trID" className='mb-2  d-flex' >
+                                                <Form.Control type="tel" placeholder="Transaction Id" value={trID} onChange={TrIDHandler} required />
+                                        </Form.Group>
 
                                         {/* image upload work */}
 
@@ -277,7 +285,7 @@ let UserIdReg = () => {
                                         <Form.Group controlId="paymentImage" className=' mb-2  d-flex ' >
                                             <Form.Control type="file" placeholder="upload" onChange={convertToBase64} required />
                                         </Form.Group>
-                                        <p>upload fee recept excepted less then 250 kb</p>
+                                        <p>upload fee receipt (size less than 150kb)</p>
 
 
 

@@ -57,7 +57,9 @@ router.post('/upload', async (req, res) => {
     try {
         //image upload
         let image = req.body.image;
-        let data = await StudentModel.updateOne({ email: req.body.email }, { image: image });
+        let trID = req.body.trID;
+        // console.log("are yrr tr0r"+trID);
+        let data = await StudentModel.updateOne({ email: req.body.email },{ $set: { image: image, trID: trID } });
         let studentDetails = await StudentModel.findOne({ email: req.body.email });
         if (data.matchedCount === 0) {
             res.status(400).json({
@@ -68,12 +70,12 @@ router.post('/upload', async (req, res) => {
         } else {
             // yha email bhejna hai.
             let mailOptions = {
-                from: 'vikasdbg453@gmail.com',
+                from: 'junoonmit@gmail.com',
                 to: studentDetails.email,
                 subject: "Payment Completed Successfully for Fiesta'23",
                 html: `
-                <p>College:<strong> ${studentDetails.collegeName}</strong></p>
                 <p>Name:<strong> ${studentDetails.name}</strong></p>
+                <p>College:<strong> ${studentDetails.collegeName}</strong></p>
                 <p>User ID:<strong>${studentDetails.userID}</strong></p>
                 <p>Your User ID will be Activated Within 24 hours</p>
                 <a href="fiestamit.in"><strong>Official Page </strong></a> <br/><br/>

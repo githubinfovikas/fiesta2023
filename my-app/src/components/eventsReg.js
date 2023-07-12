@@ -194,7 +194,6 @@ const EventRegistrationForm = () => {
                                                     <option  >Snappers (Photography-Online Events) </option>
 
                                                 </Form.Select>
-                                                
                                             </Form.Group>
                                             <Form.Group controlId="GroupLeaderName" className='mb-2 formheader' >
                                                 <FormLabel >Group Leader Name</FormLabel>
@@ -222,8 +221,8 @@ const EventRegistrationForm = () => {
                                                 <Form.Control value={email} type="text" placeholder="Enter Email Id" onChange={emailHandler} required />
                                             </Form.Group>
                                             {/* Members Details  */}
-                                            <p style={{ fontSize: '12px', marginBottom: '-2px' }}><spam style={{ color: 'red' }} >***</spam>If you are solo Participation then member name and User id Not required,You can proceed submit Button<spam style={{ color: 'red' }} >***</spam></p>
-                                            <FormLabel >Member Name & User Id</FormLabel>
+                                            <p style={{ fontSize: '12px', marginBottom: '-2px' }}><spam style={{ color: 'red' }} >***</spam>If you are solo Participant then member User id Not required,You can proceed for submission<spam style={{ color: 'red' }} >***</spam></p>
+                                            <FormLabel >Member User Id</FormLabel>
 
                                             {members.map((member, index) => (
                                                 <div key={index} className='row'>
@@ -249,14 +248,14 @@ const EventRegistrationForm = () => {
                                         </Form>
                                         <div className="mt-5">
                                             <p className=" text-center">
-                                                If you are coming to college for Performence then please carry Adhar Card / College Id and Two Photos and <a target='blank' href='#'>Office Order letter.</a>
+                                                At the time of physical verification it's mandatory to carry Adhar Card , College Id and Two Photos.
                                             </p>
                                         </div>
                                     </div>
                                 </div>
                             </Card.Body>
                             <a href='/form-fill' style={{ textDecoration: 'none' }} ><b>How to fill form</b></a>
-                            <p>Any issue regarding registration then you are contact me(9798525268)</p>
+                            <p>While facing issues regarding registration then you can contact us at (9798525268)</p>
                         </Card>
                     </Col>
                 </Row>

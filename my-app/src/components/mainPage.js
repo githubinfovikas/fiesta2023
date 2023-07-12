@@ -29,6 +29,9 @@ const MainPage = () => {
                             <b style={{ color: 'orange', fontSize: '4vh', fontWeight: '800', textShadow: '2px 2px 5px red' }}><pre>10<sup>th</sup> TO 12<sup>th</sup> AUGUST</pre></b>
 
                         </marquee>
+                        <p style={{color:'white',fontSize:'3vh'}}>For All Event participation : ₹ 900/-, 
+                            For only Online Event participation : ₹ 199/- 
+                            </p>
                     </div>
                     <div className="col-lg-12 col-sm-12 mt-5" >
 
@@ -52,9 +55,9 @@ const MainPage = () => {
                 <div className='row mx-auto ' >
                     <div className="col-lg-3  col-sm-12 m-sm-0 pb-5 card-animation  "   >
                         <Card  >
-                        <a href='/acting-drama'>
-                            <Card.Img variant="top" src={actingDrama} />
-                        </a>
+                            <a href='/acting-drama'>
+                                <Card.Img variant="top" src={actingDrama} />
+                            </a>
                             <Card.Body >
                                 <a href='/acting-drama' className='btn btn-primary hower mx-auto' style={{ width: '30vh' }}  > ACTING & DRAMA </a>
                             </Card.Body>
@@ -85,8 +88,8 @@ const MainPage = () => {
                     </div>
                     <div className="col-lg-3 col-sm-12 m-sm-0 pb-5 card-animation">
                         <Card>
-                        <a href='/fine-arts'>
-                            <Card.Img variant="top" src={fineArts} />
+                            <a href='/fine-arts'>
+                                <Card.Img variant="top" src={fineArts} />
                             </a>
                             <Card.Body>
                                 <a href='/fine-arts' className='btn btn-primary hower mx-auto' style={{ width: '30vh' }}>FINE ARTS</a>
