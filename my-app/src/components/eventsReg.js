@@ -122,15 +122,14 @@ const EventRegistrationForm = () => {
                 });
             }
         }
-        // setShow(true);
-        // setEventName(eventName);
-        // setLeaderName('');
-        // setLeaderUserID('');
-        // setCollegeName('');
-        // setPhoneNumber1('');
-        // setPhoneNumber2('');
-        // setEmail('');
-        // setMembers([{ name: '', userId: '' }]);
+        setEventName(eventName);
+        setLeaderName('');
+        setLeaderUserID('');
+        setCollegeName('');
+        setPhoneNumber1('');
+        setPhoneNumber2('');
+        setEmail('');
+        setMembers([{ name: '', userId: '' }]);
 
 
     };

@@ -87,7 +87,7 @@ let UserIdReg = () => {
             trID: trID,
         })
 
-        axios.post(`http://localhost:1060/upload`, requestBody, { headers })
+        axios.post(`/upload`, requestBody, { headers })
             .then(response => {
                 console.log('Post created successfully');
                 console.log('Response:', response.data);
@@ -129,7 +129,7 @@ let UserIdReg = () => {
         }
         console.log(studentDetails);
         try {
-            const response = await axios.post(`http://localhost:1060/register`, JSON.stringify(studentDetails), {
+            const response = await axios.post(`/register`, JSON.stringify(studentDetails), {
                 headers: { 'Content-Type': 'application/json' }
             });
             let { data } = response;
@@ -172,13 +172,13 @@ let UserIdReg = () => {
             }
         }
 
-        // newName('');
-        // newEmail('');
-        // newPhoneNumber('');
-        // newCollegeName('');
-        // newDocumentID('');
-        // newDocument();
-        // newTshirt();
+        newName('');
+        newEmail('');
+        newPhoneNumber('');
+        newCollegeName('');
+        newDocumentID('');
+        newDocument();
+        newTshirt();
     }
 
 
