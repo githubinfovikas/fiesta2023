@@ -4,7 +4,7 @@ const data = {
     facility: [
         {
             id: 4,
-            imgSrc: "https://imgur.com/QjCNTRJ.png",
+            imgSrc: "https://imgur.com/82fPtJV.png",
             title: 'Prof. Shashikant Kumar (CE)',
             about: 'Acting & Drama'
         },
@@ -16,25 +16,25 @@ const data = {
         },
         {
             id: 4,
-            imgSrc: "https://imgur.com/QjCNTRJ.png",
+            imgSrc: "https://imgur.com/HxYMew7.png",
             title: 'Prof. Atul kr. Rahul (CE)',
             about: 'Music & Dance',
         },
         {
             id: 4,
-            imgSrc: "https://imgur.com/QjCNTRJ.png",
+            imgSrc: "https://imgur.com/qu8Nd3j.png",
             title: 'Prof. Umar Farooque (ECE)',
             about: 'Fine Arts'
         },
         {
             id: 4,
-            imgSrc: "https://imgur.com/QjCNTRJ.png",
+            imgSrc: "https://imgur.com/myAEszk.png",
             title: 'Vijay Kumar (CE)',
             about: 'The Arts & Cultural'
         },
         {
             id: 4,
-            imgSrc: "https://imgur.com/QjCNTRJ.png",
+            imgSrc: "https://imgur.com/jGJ0Ccf.png",
             title: 'Prof. Atul Kr. Gupta (ASHD)',
             about: 'The Arts & Cultural'
         },
@@ -150,7 +150,7 @@ const data = {
 
         {
             id: 4,
-            imgSrc: "https://imgur.com/niEE1od.png",
+            imgSrc: "https://imgur.com/N9yT6iH.png",
             title: 'Vikas Kumar',
             about: 'Acting & Drama'
         },

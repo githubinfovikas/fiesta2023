@@ -2,6 +2,8 @@ import React from 'react';
 import '../../css/footer.css';
 
 import vi from '../../photo/vi.jpg'         //facilty    
+import shweta from '../../photo/shweta.jpg'
+import ashish from '../../photo/ashish.jpg'
 
 import aditya from '../../photo/aditya.jpg';
 import komal from '../../photo/komal.jpg';
@@ -40,7 +42,7 @@ const Members = () => {
 
                         <div className="col-lg-2 col-sm-12 me-lg-3 ms-lg-3 mb-4 text-center card-animation ">
                             <div className="card" >
-                                <img src={vi} className="card-img-top" alt="..." />
+                                <img src={ashish} className="card-img-top" alt="..." />
                                 <div className="card-body">
                                     <p className="card-text">Prof. Ashish Kumar (CE) <br></br>Music & Dance</p>
                                 </div>
@@ -67,7 +69,7 @@ const Members = () => {
 
                         <div className="col-lg-2 col-sm-12 me-lg-3 ms-lg-3 mb-4 text-center card-animation">
                             <div className="card " >
-                                <img src={vi} className="card-img-top" alt="..." />
+                                <img src={shweta} className="card-img-top" alt="..." />
                                 <div className="card-body">
                                     <p className="card-text">Prof. Shweta Kumari (IT) <br></br> Fine Arts</p>
                                 </div>

@@ -24,8 +24,9 @@ function F_details() {
                 <p>Location is accessible and step-free.</p>
                 <br></br>
                 <h5 className='my-1 ' style={{ fontSize: '5vh' }}>Dates</h5> <br></br>
-                <p>July 9 to July 11,</p>
-                <p>Sunday to Tuesday</p>
+                <b style={{ color: 'orange', fontSize: '4vh', fontWeight: '800', textShadow: '2px 2px 5px red' }}><pre>10<sup>th</sup> TO 12<sup>th</sup> AUGUST</pre></b>
+
+                <p>Thursday to Saturday</p>
                 ............
 
                 <h5 className='mt-5  ' style={{ fontSize: '5vh' }} >Times</h5> <br></br>

@@ -26,7 +26,7 @@ function MyVerticallyCenteredModal(props) {
 
           <img src={props.data.imgSrc} alt="" style={{ borderRadius: '3vh', height: '20vh', display: 'flex', justifyContent: 'center' }} />
           <br></br>
-          <p style={{ color: 'white',margin:'-2vh'}}>
+          <p style={{ color: 'white',margin:'-2vh'}}> 
             {props.data.about}
           </p>
 
