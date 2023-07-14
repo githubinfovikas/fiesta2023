@@ -78,6 +78,7 @@ router.post('/upload', async (req, res) => {
                 <p>College:<strong> ${studentDetails.collegeName}</strong></p>
                 <p>User ID:<strong>${studentDetails.userID}</strong></p>
                 <p>Your User ID will be Activated Within 24 hours</p>
+                <p>At the time of physical verification it's mandatory to carry Adhar Card , College Id and Two Photos.</p>
                 <a href="fiestamit.in"><strong>Official Page </strong></a> <br/><br/>
               `
             }

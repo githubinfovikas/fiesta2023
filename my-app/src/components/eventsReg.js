@@ -140,7 +140,7 @@ const EventRegistrationForm = () => {
 
     return (
         <div className='bg-secondary'>
-            <ToastContainer />z
+            <ToastContainer />
             <Container className='mt-3'>
                 <Row className="d-flex justify-content-center align-items-center">
                     <Col md={8} lg={6} xs={12}>
@@ -220,7 +220,7 @@ const EventRegistrationForm = () => {
                                                 <Form.Control value={email} type="text" placeholder="Enter Email Id" onChange={emailHandler} required />
                                             </Form.Group>
                                             {/* Members Details  */}
-                                            <p style={{ fontSize: '12px', marginBottom: '-2px' }}><spam style={{ color: 'red' }} >***</spam>If you are solo Participant then member User id Not required,You can proceed for submission<spam style={{ color: 'red' }} >***</spam></p>
+                                            <p style={{ fontSize: '12px', marginBottom: '-2px' }}><spam style={{ color: 'red' }} >***</spam>User id not required for solo participant, Proceed for submission<spam style={{ color: 'red' }} >***</spam></p>
                                             <FormLabel >Member User Id</FormLabel>
 
                                             {members.map((member, index) => (
@@ -248,6 +248,7 @@ const EventRegistrationForm = () => {
                                         <div className="mt-5">
                                             <p className=" text-center">
                                                 At the time of physical verification it's mandatory to carry Adhar Card , College Id and Two Photos.
+                                                
                                             </p>
                                         </div>
                                     </div>

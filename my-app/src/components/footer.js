@@ -22,7 +22,7 @@ function Footer() {
                 <div className="col-lg-4 col-sm-12 mb-3">
                     <h5 className="bol">Any query regarding Fiesta'23 <br></br> Contact Us</h5>
                     <h6>Aditya : +91-7033392927</h6>
-                    <h6>Akash : +91 7079037402</h6>
+                    <h6>Akash : +91-7079037402</h6>
                     <h6>Vikas  : +91-9798525268 </h6>
 
                 </div>
