@@ -92,6 +92,15 @@ const EventRegistrationForm = () => {
                 draggable: true,
             });
 
+            setEventName(eventName);
+            setLeaderName('');
+            setLeaderUserID('');
+            setCollegeName('');
+            setPhoneNumber1('');
+            setPhoneNumber2('');
+            setEmail('');
+            setMembers([{ userId: '' }]);
+
         } catch (error) {
             if (error.response) {
                 toast.error(`${error.response.data.message}`, {
@@ -122,14 +131,6 @@ const EventRegistrationForm = () => {
                 });
             }
         }
-        setEventName(eventName);
-        setLeaderName('');
-        setLeaderUserID('');
-        setCollegeName('');
-        setPhoneNumber1('');
-        setPhoneNumber2('');
-        setEmail('');
-        setMembers([{ name: '', userId: '' }]);
 
 
     };
@@ -248,7 +249,7 @@ const EventRegistrationForm = () => {
                                         <div className="mt-5">
                                             <p className=" text-center">
                                                 At the time of physical verification it's mandatory to carry Adhar Card , College Id and Two Photos.
-                                                
+
                                             </p>
                                         </div>
                                     </div>

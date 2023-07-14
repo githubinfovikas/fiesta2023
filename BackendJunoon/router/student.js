@@ -59,15 +59,26 @@ router.post('/upload', async (req, res) => {
         let image = req.body.image;
         let trID = req.body.trID;
         // console.log("are yrr tr0r"+trID);
-        let data = await StudentModel.updateOne({ email: req.body.email },{ $set: { image: image, trID: trID } });
         let studentDetails = await StudentModel.findOne({ email: req.body.email });
-        if (data.matchedCount === 0) {
+        let transactionData = await StudentModel.findOne({trID:trID});
+        let data = await StudentModel.updateOne({ email: req.body.email },{ $set: { image: image, trID: trID } });
+       if(transactionData && transactionData.trID === trID){
+        res.status(402).json(
+            {
+                message:"check your transaction id",
+                success:false,
+
+            }
+        )
+       }
+       else if (data.matchedCount === 0) {
             res.status(400).json({
                 message: "First complete your registration !",
                 success: false,
                 response: data,
             })
-        } else {
+        }
+        else {
             // yha email bhejna hai.
             let mailOptions = {
                 from: 'junoonmit@gmail.com',
@@ -75,26 +86,11 @@ router.post('/upload', async (req, res) => {
                 subject: "Registration Successful for FIESTA'2023",
                 html: `
                 <p>Greetings from FIESTA</p>
-
                 <p>Name:<strong> ${studentDetails.name}</strong></p>
                 <p>College:<strong> ${studentDetails.collegeName}</strong></p>
                 <p>User ID:<strong>${studentDetails.userID}</strong></p>
-                <pre>
-                Your registration is now complete. We welcome you to be a part of FIESTA. 
-                Your fst user-ID is: <strong>${studentDetails.userID}</strong>. Please don't share your fst-ID with others. 
-                You can now visit our website <a href="fiestamit.in"><strong>fiestamit.in</strong></a> to get the latest updates on our Events. 
-                You can register for our competitions, and other events using this website. 
-                Stay informed by checking our website and make use of this exciting opportunity to the fullest, 
-                by participating in our events. Hope to see you soon in our upcoming events.
-                
-                
-                Note: Your User ID will be Activated Within 24 hours. At the time of physical verification it's mandatory to carry Adhar Card/College ID and Two Photos.
-                </pre>
-
-                <pre>
-                Regards,
-                Fiesta Team
-                </pre>
+                <pre><br>Your registration is now complete. We welcome you to be a part of FIESTA.<br>Your fst user-ID is: <strong>${studentDetails.userID}</strong>. Please don't share your fst-ID with others.<br>You can now visit our website <a href="fiestamit.in"><strong>fiestamit.in</strong></a> to get the latest updates on our Events.<br>You can register for our competitions, and other events using this website.<br>Stay informed by checking our website and make use of this exciting opportunity to the fullest,<br>by participating in our events. Hope to see you soon in our upcoming events.<br><br>Note: Your User ID will be Activated Within 24 hours. At the time of physical verification it's mandatory to carry Adhar Card/College ID and Two Photos.
+                </pre><br><pre>Regards,<br>Fiesta Team</pre>
               `
             }
             mailService(mailOptions);

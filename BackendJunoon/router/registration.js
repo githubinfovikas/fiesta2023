@@ -16,9 +16,14 @@ router.post('/register-event', async (req, res) => {
                     message: "This User ID is Not Valid !",
                     success: false,
                 })
-            }else{
+            } else {
                 let data = await RegistrationModel.create(req.body);
-                let registerationDetails = await RegistrationModel.findOne({ leaderUserID: req.body.leaderUserID, event: req.body.event});
+                let registerationDetails = await RegistrationModel.findOne({ leaderUserID: req.body.leaderUserID, event: req.body.event });
+                console.log(registerationDetails.memberNameAndUserID);
+                let userIdList = [];
+                registerationDetails.memberNameAndUserID.forEach(element => {
+                    userIdList.push(element.userId);
+                });
                 let mailOption = {
                     from: 'junoonmit@gmail.com',
                     to: req.body.email,
@@ -27,6 +32,7 @@ router.post('/register-event', async (req, res) => {
                       <p>Event Name:<strong> ${registerationDetails.event}</strong></p>
                       <p>Leader Name:<strong> ${registerationDetails.leaderName}</strong></p>
                       <p>User ID:<strong>${registerationDetails.leaderUserID}</strong></p>
+                      <p>User ID:<strong>${JSON.stringify(userIdList)}</strong></p>
                       <a href="fiestamit.in"><strong>Official Page</strong></a>
                      `
                 }
@@ -38,7 +44,7 @@ router.post('/register-event', async (req, res) => {
                     path: req.path,
                     registerationDetails: registerationDetails,
                 })
-            }  
+            }
         } else {
             res.status(402).json({
                 message: "Already Registered!",

@@ -6,6 +6,7 @@ import actingDrama from '../photo/acting_drama.jpg';
 import musicDance from '../photo/music_dance.jpg';
 import litreture from '../photo/literature_debate.jpg';
 import fineArts from '../photo/fine_arts.jpg';
+import firstAnimation from '../animation/1.mp4';
 import logoFiesta from '../photo/fiesta-logo.png';
 
 
@@ -15,36 +16,24 @@ const MainPage = () => {
 
         <div>
 
-                <div class="background"> 
-                {/* frontPage animation */}
-                    <div class="cube"></div>
-                    <div class="cube"></div>
-                    <div class="cube"></div>
-                    <div class="cube"></div>
-                    <div class="cube"></div>
-                    <div class="cube"></div>
-                    <div class="cube"></div>
-                    <div class="cube"></div>
-                    <div class="cube"></div>
-                    <div class="cube"></div>
-                    <div class="cube"></div>
-                    
-                   
-                {/* </div> */}
+            <div className='video-background-container' >
+                <video autoPlay muted loop className="video-background">
+                    <source src={firstAnimation} type="video/mp4" />
+                </video>
 
-                <div className="row ">
+                <div className="row">
 
-                    <div className='mb-5 ' style={{ marginTop: '10vh' }}>
+                    <div className='mb-4 ' style={{ marginTop: '10vh' }}>
                         <b style={{ color: 'white', }}><spam>The Inter College Cultural Fest of MIT Muzaffarpur</spam></b><br></br><br></br>
                         <marquee behavior="scroll" direction="left" scrollamount="15">
                             <b style={{ color: 'orange', fontSize: '4vh', fontWeight: '800', textShadow: '2px 2px 5px red' }}><pre>10<sup>th</sup> TO 12<sup>th</sup> AUGUST</pre></b>
 
                         </marquee>
-                        <p style={{ color: 'orange', fontSize: '2.5vh' }}>For All Event participation : ₹ 900/-,
-                            For only Online Event participation : ₹ 199/-
-                        </p>
+                        <p style={{color:'white',fontSize:'3vh'}}>For All Event participation : ₹ 900/-, 
+                            For only Online Event participation : ₹ 199/- 
+                            </p>
                     </div>
-                    <div className="col-lg-12 col-sm-12 mt-4" >
+                    <div className="col-lg-12 col-sm-12 mt-5" >
 
                         <img src={logoFiesta} alt={fineArts} style={{ width: '80vw' }} />
                     </div>
