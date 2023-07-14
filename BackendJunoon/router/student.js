@@ -72,14 +72,29 @@ router.post('/upload', async (req, res) => {
             let mailOptions = {
                 from: 'junoonmit@gmail.com',
                 to: studentDetails.email,
-                subject: "Payment Completed Successfully for Fiesta'23",
+                subject: "Registration Successful for FIESTA'2023",
                 html: `
+                <p>Greetings from FIESTA</p>
+
                 <p>Name:<strong> ${studentDetails.name}</strong></p>
                 <p>College:<strong> ${studentDetails.collegeName}</strong></p>
                 <p>User ID:<strong>${studentDetails.userID}</strong></p>
-                <p>Your User ID will be Activated Within 24 hours</p>
-                <p>At the time of physical verification it's mandatory to carry Adhar Card , College Id and Two Photos.</p>
-                <a href="fiestamit.in"><strong>Official Page </strong></a> <br/><br/>
+                <pre>
+                Your registration is now complete. We welcome you to be a part of FIESTA. 
+                Your fst user-ID is: <strong>${studentDetails.userID}</strong>. Please don't share your fst-ID with others. 
+                You can now visit our website <a href="fiestamit.in"><strong>fiestamit.in</strong></a> to get the latest updates on our Events. 
+                You can register for our competitions, and other events using this website. 
+                Stay informed by checking our website and make use of this exciting opportunity to the fullest, 
+                by participating in our events. Hope to see you soon in our upcoming events.
+                
+                
+                Note: Your User ID will be Activated Within 24 hours. At the time of physical verification it's mandatory to carry Adhar Card/College ID and Two Photos.
+                </pre>
+
+                <pre>
+                Regards,
+                Fiesta Team
+                </pre>
               `
             }
             mailService(mailOptions);

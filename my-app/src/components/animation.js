@@ -5,7 +5,6 @@ import Button from 'react-bootstrap/Button';
 import Spinner from 'react-bootstrap/Spinner';
 import '../css/animation.css'
 import fiestalogo from '../photo/fiesta mask final logo.png'
-import firstanimation from '../animation/fontpage.mp4'
 
 function Footer() {
     return (
@@ -13,10 +12,8 @@ function Footer() {
 
         <section >
 
-            <div className='video-background-container  ' >
-                <video autoPlay muted loop className="video-background">
-                    <source src={firstanimation} type="video/mp4" />
-                </video>
+            <div className='wrapper' >
+                    <h2 class="title"> </h2>
 
                 <div className="row  " onload="myFunction()" >
 
@@ -47,15 +44,15 @@ function Footer() {
 
                         <a href="/mainPage" >
                             <Button className="ereg" variant="danger" style={{ width: '80vw' }}   >
-                            <marquee behavior="scroll" direction="left" scrollamount="10">
-                                <Spinner
-                                    as="span"
-                                    animation="grow"
-                                    size="sm"
-                                    role="status"
-                                    aria-hidden="true"
-                                />
-                                
+                                <marquee behavior="scroll" direction="left" scrollamount="10">
+                                    <Spinner
+                                        as="span"
+                                        animation="grow"
+                                        size="sm"
+                                        role="status"
+                                        aria-hidden="true"
+                                    />
+
                                     <b style={{ textDecoration: 'none' }} > Click on the logo!</b>
                                 </marquee>
 
@@ -71,6 +68,7 @@ function Footer() {
 
 
             </div>
+
 
 
 
