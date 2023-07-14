@@ -87,7 +87,7 @@ let UserIdReg = () => {
             trID: trID,
         })
 
-        axios.post(`http://localhost:1060/upload`, requestBody, { headers })
+        axios.post(`/upload`, requestBody, { headers })
             .then(response => {
                 console.log('Post created successfully');
                 console.log('Response:', response.data);
