@@ -10,7 +10,7 @@ let studentRouter = require('./router/student');
 let registerationRouter = require('./router/registration');
 let axios = require('axios');
 app.use(cors());
-app.use(bodyParser.json({ limit: '225kb' }));
+app.use(bodyParser.json({ limit: '200kb' }));
 mongoose.set('strictQuery', false);
 //MONGODB DATA BASE VIKAS (2K20-BATCH)
 mongoose.connect("mongodb+srv://vikas:infovikas@cluster0.fmun4dn.mongodb.net/junoon?retryWrites=true&w=majority", {

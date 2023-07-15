@@ -62,6 +62,17 @@ let UserIdReg = () => {
     //convertto base60
 
     let convertToBase64 = (e) => {
+        const { files } = e.target;
+        if(files[0].size > 1800000){
+            toast.error(`file size is greater than 150 kb` ,{
+                position: toast.POSITION.TOP_RIGHT,
+                autoClose: 3000,
+                hideProgressBar: false,
+                closeOnClick: true,
+                pauseOnHover: true,
+                draggable: true,
+              });
+        }
         let reader = new FileReader();
         reader.readAsDataURL(e.target.files[0]);
         reader.onload = () => {
@@ -87,7 +98,7 @@ let UserIdReg = () => {
             trID: trID,
         })
 
-        axios.post(`/upload`, requestBody, { headers })
+        axios.post(`http://localhost:1060/upload`, requestBody, { headers })
             .then(response => {
                 console.log('Post created successfully');
                 console.log('Response:', response.data);
