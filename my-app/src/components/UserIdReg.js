@@ -13,10 +13,10 @@ let UserIdReg = () => {
     let [document, newDocument] = useState("select document");
     let [documentID, newDocumentID] = useState("");
     let [email, newEmail] = useState("");
-    let [tshirt,newTshirt] = useState("");
+    let [tshirt, newTshirt] = useState("");
     const [image, setImage] = useState();
-    let [trID,newTrID] = useState("");
-    const [paymentEmail,newPaymentEmail] = useState("");
+    let [trID, newTrID] = useState("");
+    const [paymentEmail, newPaymentEmail] = useState("");
     const [baseUrl, setBaseUrl] = useState('');
     let nameHandler = (event) => {
         newName(event.target.value);
@@ -38,50 +38,52 @@ let UserIdReg = () => {
         // console.log(event.target.value);
     }
 
-    let paymentEmailHandler =(event)=>{
+    let paymentEmailHandler = (event) => {
         newPaymentEmail(event.target.value);
     }
     let tshirtHandler = (event) => {
         newTshirt(event.target.value);
     }
-    let TrIDHandler = (event) =>{
+    let TrIDHandler = (event) => {
         newTrID(event.target.value);
     }
-   
+
     useEffect(() => {
         const getBaseUrl = () => {
-          const { protocol, host } = window.location;
-          const baseUrl = `${protocol}//${host}`;
-          setBaseUrl(baseUrl);
+            const { protocol, host } = window.location;
+            const baseUrl = `${protocol}//${host}`;
+            setBaseUrl(baseUrl);
         };
-    
+
         getBaseUrl();
-      }, []);
-    
+    }, []);
+
 
     //convertto base60
 
     let convertToBase64 = (e) => {
         const { files } = e.target;
-        if(files[0].size > 1800000){
-            toast.error(`file size is greater than 150 kb` ,{
+        if (files[0].size > 1800000) {
+            toast.error(`file size is greater than 150 kb`, {
                 position: toast.POSITION.TOP_RIGHT,
                 autoClose: 3000,
                 hideProgressBar: false,
                 closeOnClick: true,
                 pauseOnHover: true,
                 draggable: true,
-              });
+            });
         }
-        let reader = new FileReader();
-        reader.readAsDataURL(e.target.files[0]);
-        reader.onload = () => {
-            console.log(reader.result);
-            setImage(reader.result);
-        };
-        reader.onerror = error => {
-            console.log("Error: ", error);
-        };
+        else {
+            let reader = new FileReader();
+            reader.readAsDataURL(e.target.files[0]);
+            reader.onload = () => {
+                console.log(reader.result);
+                setImage(reader.result);
+            };
+            reader.onerror = error => {
+                console.log("Error: ", error);
+            };
+        }
     }
 
     let uploadHandler = async (event) => {
@@ -102,25 +104,25 @@ let UserIdReg = () => {
             .then(response => {
                 console.log('Post created successfully');
                 console.log('Response:', response.data);
-                toast.success(`Uploaded successfully` ,{
+                toast.success(`Uploaded successfully`, {
                     position: toast.POSITION.TOP_RIGHT,
                     autoClose: 3000,
                     hideProgressBar: false,
                     closeOnClick: true,
                     pauseOnHover: true,
                     draggable: true,
-                  });
+                });
             })
             .catch(error => {
                 console.error('Error creating post:', error);
-                toast.error(`${error.response.data.message}` ,{
+                toast.error(`${error.response.data.message}`, {
                     position: toast.POSITION.TOP_RIGHT,
                     autoClose: 3000,
                     hideProgressBar: false,
                     closeOnClick: true,
                     pauseOnHover: true,
                     draggable: true,
-                  });
+                });
             });
 
 
@@ -136,7 +138,7 @@ let UserIdReg = () => {
             email: email,
             phoneNo: phoneNo,
             document: document,
-            tshirt:tshirt,
+            tshirt: tshirt,
         }
         console.log(studentDetails);
         try {
@@ -151,35 +153,35 @@ let UserIdReg = () => {
                 closeOnClick: true,
                 pauseOnHover: true,
                 draggable: true,
-              });
+            });
         } catch (error) {
             if (error.response) {
-                toast.error(`${error.response.data.message}` ,{
-                        position: toast.POSITION.TOP_RIGHT,
-                        autoClose: 3000,
-                        hideProgressBar: false,
-                        closeOnClick: true,
-                        pauseOnHover: true,
-                        draggable: true,
-                      });
-            } else if (error.request) {
-                toast.error(`No response from the server` ,{
+                toast.error(`${error.response.data.message}`, {
                     position: toast.POSITION.TOP_RIGHT,
                     autoClose: 3000,
                     hideProgressBar: false,
                     closeOnClick: true,
                     pauseOnHover: true,
                     draggable: true,
-                  });
+                });
+            } else if (error.request) {
+                toast.error(`No response from the server`, {
+                    position: toast.POSITION.TOP_RIGHT,
+                    autoClose: 3000,
+                    hideProgressBar: false,
+                    closeOnClick: true,
+                    pauseOnHover: true,
+                    draggable: true,
+                });
             } else {
-                toast.error(`Error : ${error.message}` ,{
-                        position: toast.POSITION.TOP_RIGHT,
-                        autoClose: 3000,
-                        hideProgressBar: false,
-                        closeOnClick: true,
-                        pauseOnHover: true,
-                        draggable: true,
-                      });
+                toast.error(`Error : ${error.message}`, {
+                    position: toast.POSITION.TOP_RIGHT,
+                    autoClose: 3000,
+                    hideProgressBar: false,
+                    closeOnClick: true,
+                    pauseOnHover: true,
+                    draggable: true,
+                });
             }
         }
 
@@ -198,7 +200,7 @@ let UserIdReg = () => {
 
 
         <div className='bg-secondary'>
-        <ToastContainer />
+            <ToastContainer />
             <Container className='mt-5'>
                 <Row className="d-flex justify-content-center align-items-center ">
                     <Col md={8} lg={6} xs={12}>
@@ -206,7 +208,7 @@ let UserIdReg = () => {
                         <Card className="shadow px-lg-5">
                             <Card.Body>
                                 <div >
-                                        <h2 className="fw-bold mb-4  text "><span className='reg'>Fiesta'23 Registration</span></h2>
+                                    <h2 className="fw-bold mb-4  text "><span className='reg'>Fiesta'23 Registration</span></h2>
                                     <div className="mb-3">
                                         <Form onSubmit={handleSubmit} className='mb-3' >
 
@@ -257,7 +259,7 @@ let UserIdReg = () => {
                                                 </Form.Select>
                                             </Form.Group>
 
-                                            
+
                                             <p >Please recheck all details.</p>
 
                                             <Button type="handleSubmit" variant='success' className='mt-3 mb-5 ereg hower mx-auto' >
@@ -272,7 +274,7 @@ let UserIdReg = () => {
                                             <div className="card" style={{ border: 'none' }} >
                                                 <img src={paytm} className="card-img-top" alt="..." />
                                                 <div className="card-body">
-                                                    <p className="card-text"><b>Pay For All Event participation : ₹ 900/-</b>  <br/><b>Only Online Event participation : ₹ 199/-</b> </p>
+                                                    <p className="card-text"><b>Pay For All Event participation : ₹ 900/-</b>  <br /><b>Only Online Event participation : ₹ 199/-</b> </p>
                                                 </div>
                                             </div>
 
@@ -282,9 +284,9 @@ let UserIdReg = () => {
                                             <i className="fa-solid fa-envelope fa-2x p-1" ></i>
                                             <Form.Control type="email" placeholder="Email" value={paymentEmail} onChange={paymentEmailHandler} required />
                                         </Form.Group>
-                                        
+
                                         <Form.Group controlId="trID" className='mb-2  d-flex' >
-                                                <Form.Control type="tel" placeholder="Transaction Id" value={trID} onChange={TrIDHandler} required />
+                                            <Form.Control type="tel" placeholder="Transaction Id" value={trID} onChange={TrIDHandler} required />
                                         </Form.Group>
 
                                         {/* image upload work */}
