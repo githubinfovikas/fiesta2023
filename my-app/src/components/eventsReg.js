@@ -149,7 +149,7 @@ const EventRegistrationForm = () => {
                         <Card className="shadow px-lg-4">
                             <Card.Body>
                                 <div >
-                                    <h2 className="fw-bold mb-4 text-uppercase text mt-5"><span className='reg'>Event registration</span></h2>
+                                    <h2 className="fw-bold mb-4  text mt-5"><span className='reg'>Event Registration</span></h2>
                                     <div className="mb-3">
                                         <Form onSubmit={handleSubmit} className='mb-2' >
 
@@ -209,19 +209,19 @@ const EventRegistrationForm = () => {
                                                 <Form.Control value={collegeName} type="text" placeholder="College Name" onChange={collegeNameHandler} required />
                                             </Form.Group>
                                             <Form.Group controlId="MobileNumber" className='mb-2 formheader'>
-                                                <FormLabel>Mobile Number-1</FormLabel>
-                                                <Form.Control value={phoneNumber1} type="tel" pattern="[0-9]{10}" placeholder="Mobile Number-1" onChange={phoneNumber1Handler} required />
+                                                <FormLabel>Mobile Number</FormLabel>
+                                                <Form.Control value={phoneNumber1} type="tel" pattern="[0-9]{10}" placeholder="Mobile Number" onChange={phoneNumber1Handler} required />
                                             </Form.Group>
                                             <Form.Group controlId="MobileNumber" className='mb-2 formheader'>
-                                                <FormLabel>Mobile Number-2</FormLabel>
-                                                <Form.Control value={phoneNumber2} type="tel" pattern="[0-9]{10}" placeholder="Mobile Number-2" onChange={phoneNumber2Handler} required />
+                                                <FormLabel>WhatsApp Number</FormLabel>
+                                                <Form.Control value={phoneNumber2} type="tel" pattern="[0-9]{10}" placeholder="WhatsApp Number" onChange={phoneNumber2Handler} required />
                                             </Form.Group>
                                             <Form.Group controlId="email" className='mb-2 formheader'>
                                                 <FormLabel>Email</FormLabel>
                                                 <Form.Control value={email} type="text" placeholder="Enter Email Id" onChange={emailHandler} required />
                                             </Form.Group>
                                             {/* Members Details  */}
-                                            <p style={{ fontSize: '12px', marginBottom: '-2px' }}><spam style={{ color: 'red' }} >***</spam>User id not required for solo participant, Proceed for submission<spam style={{ color: 'red' }} >***</spam></p>
+                                            <p style={{ fontSize: '12px', marginBottom: '-2px' }}><spam style={{ color: 'red' }} >***</spam>Member User id not required for solo participant, Proceed for submission<spam style={{ color: 'red' }} >***</spam></p>
                                             <FormLabel >Member User Id</FormLabel>
 
                                             {members.map((member, index) => (
@@ -230,7 +230,7 @@ const EventRegistrationForm = () => {
                                                         <Form.Group controlId={`memberEmail${index}`}>
                                                             <Form.Control type="userId" placeholder="User Id" name="userId" value={member.userId} onChange={(event) => handleMemberChange(event, index)} />
                                                         </Form.Group>
-                                                        <Button variant="secondary" onClick={handleAddMember} className='mx-2 addmember hower' style={{ fontSize: 10 }} >
+                                                        <Button variant="secondary" onClick={handleAddMember} className='mx-2 addmember hower' style={{ fontSize: 8 }} >
                                                             Add Member
                                                         </Button>
                                                     </div>

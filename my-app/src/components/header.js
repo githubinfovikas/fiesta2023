@@ -6,7 +6,6 @@ import maskLogo from '../photo/fiesta mask final logo.png'
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import '../css/header.css';
 import '../css/navAnimation.css';
-import Registration from './Admin/registrationApi';
 
 
 function Header() {
@@ -37,7 +36,7 @@ function Header() {
               <div style={{ color: 'white' }}>
                 <NavDropdown title={<span className="text-white my-auto fw-bold "><span class="hower">Notification</span></span>} id="basic-nav-dropdown">
                 <NavDropdown.Item className="navbg" href="https://forms.gle/YR2Vef2ofRPUgy2x6">Only online Event Registration</NavDropdown.Item>
-                  <NavDropdown.Item className="navbg" href="/sponser">Presentation</NavDropdown.Item>
+                  <NavDropdown.Item className="navbg" href="/sponser">Presentation Video</NavDropdown.Item>
                   <NavDropdown.Item className="navbg" target='blank' href="https://drive.google.com/file/d/10XvbRMR6iSnC1lrXZvJfpYkq68_8QC7Q/view?usp=sharing">Acting Drama Rulebook</NavDropdown.Item>
                   <NavDropdown.Item className="navbg" target='blank' href="https://drive.google.com/file/d/10W_3AnqToQnIZJTmU1SM908DC5m3BdyQ/view?usp=sharing">Music Dance Rulebook</NavDropdown.Item>
                   <NavDropdown.Item className="navbg" target='blank' href="https://drive.google.com/file/d/10OqG4c72oS1C_oDpYPonAk9MsCGKJRC8/view?usp=sharing">Literature Debate Rulebook</NavDropdown.Item>

@@ -17,7 +17,7 @@ function F_details() {
                 </Card>
             </div>
             <div className="col-lg-6 col-sm-12 bl"  >
-                <h3 className='my-3 ' style={{ fontSize: '5vh' }}>Location</h3> <br></br>
+                <h3 className='my-5 ' style={{ fontSize: '5vh' }}>Location</h3> <br></br>
                 <p>Audition-AVH</p>
                 <p>New Examination Hall - Area A</p>
                 <p>Main Ground Stage - Open Area B</p>
@@ -27,12 +27,7 @@ function F_details() {
                 <b style={{ color: 'orange', fontSize: '4vh', fontWeight: '800', textShadow: '2px 2px 5px red' }}><pre>10<sup>th</sup> TO 12<sup>th</sup> AUGUST</pre></b>
 
                 <p>Thursday to Saturday</p>
-                ............
-
-                <h5 className='mt-5  ' style={{ fontSize: '5vh' }} >Times</h5> <br></br>
-                <p>Gates open at 5:00 pm</p>
-                <p>Performances from</p>
-                <p>6:00 pm to 11:00 pm</p>
+                
             </div>
 
 

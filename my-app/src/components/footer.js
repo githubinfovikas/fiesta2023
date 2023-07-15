@@ -28,15 +28,15 @@ function Footer() {
                 </div>
 
                 <div className="col-lg-4 col-sm-12 mb-3" >
-        
+
                     <NavDropdown title={<span className="text-white my-auto fw-bold "><span class="hower">Helpful Link</span></span>} id="basic-nav-dropdown">
-                       <NavDropdown.Item className="navbg" href="/sponser">Presentation</NavDropdown.Item>
+                        <NavDropdown.Item className="navbg" href="/sponser">Presentation</NavDropdown.Item>
                         <NavDropdown.Item className='navbg' href='/form-fill'>How to fill form </NavDropdown.Item>
                     </NavDropdown>
-                    
-                <div className='p-4'>
-                <u className='row  btn btn-info navbg ' onClick={() => { setModalData(prevstate => ({ ...prevstate, show: true })) }} style={{ textDecoration: 'none' }} ><b>Admin</b></u>
-                </div>
+
+                    <div className='p-4'>
+                        <u className='row  btn btn-info navbg ' onClick={() => { setModalData(prevstate => ({ ...prevstate, show: true })) }} style={{ textDecoration: 'none' }} ><b>Admin</b></u>
+                    </div>
                 </div>
 
 
@@ -65,7 +65,7 @@ function Footer() {
                             <i class="fa-brands fa-telegram white ms-4 p-1 fa-beat fa-2x " style={{ color: "#41d2a7", }}></i>
                         </a>
 
-                    
+
 
                     </h6>
 
@@ -77,7 +77,16 @@ function Footer() {
 
 
                 <div>
-                    <div><h6>MIT Muzaffarpur,Bihar-842003</h6></div>
+                    <div>
+                        <h6>Muzaffarpur Institute of Technology
+                            Muzaffarpur, Bihar, India
+                            Pin - 842003
+                        </h6>
+                        <div className='d-flex auto' style={{justifyContent:'center'}}>
+                            <i class="fa-solid fa-location-dot fa-1x p-1 fa-beat" ></i>
+                            <a href='https://maps.app.goo.gl/8aHjw4T6mwS4brQA8' target='blank'  style={{textDecoration:'none',color:'white',marginBottom:'2vh',marginLeft:'-2vh',fontWeight:'600'}}><span className='hower'>Main Campus</span></a>
+                        </div>
+                    </div>
                     <div ><h3><a href='/tech-team'><b>Tech team</b></a></h3></div>
                 </div>
 

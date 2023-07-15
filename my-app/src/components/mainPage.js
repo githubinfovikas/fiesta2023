@@ -29,7 +29,7 @@ const MainPage = () => {
                             <b style={{ color: 'orange', fontSize: '4vh', fontWeight: '800', textShadow: '2px 2px 5px red' }}><pre>10<sup>th</sup> TO 12<sup>th</sup> AUGUST</pre></b>
 
                         </marquee>
-                        <p style={{color:'white',fontSize:'3vh'}}>For All Event participation : ₹ 900/-, 
+                        <p style={{color:'white',fontSize:'2vh'}}>For All Event participation : ₹ 900/-, 
                             For only Online Event participation : ₹ 199/- 
                             </p>
                     </div>

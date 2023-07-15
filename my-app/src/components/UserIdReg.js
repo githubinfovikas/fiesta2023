@@ -195,8 +195,7 @@ let UserIdReg = () => {
                         <Card className="shadow px-lg-5">
                             <Card.Body>
                                 <div >
-                                    <marquee behavior="scroll" direction="left" scrollamount="6">
-                                        <h2 className="fw-bold mb-4 text-uppercase text "><span className='reg'>Register</span></h2></marquee>
+                                        <h2 className="fw-bold mb-4  text "><span className='reg'>Fiesta'23 Registration</span></h2>
                                     <div className="mb-3">
                                         <Form onSubmit={handleSubmit} className='mb-3' >
 

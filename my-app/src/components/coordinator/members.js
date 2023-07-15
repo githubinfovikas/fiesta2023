@@ -35,7 +35,7 @@ const Members = () => {
                             <div className="card" >
                                 <img src={vi} className="card-img-top" alt="..." />
                                 <div className="card-body">
-                                    <p className="card-text">Prof. Ramjee parsad (EE) <br></br>Chairman</p>
+                                    <p className="card-text">Prof. R.P Gupta (EE) <br></br>Chairman</p>
                                 </div>
                             </div>
                         </div>
@@ -105,7 +105,7 @@ const Members = () => {
                             <div className="card" >
                                 <img src={komal} className="card-img-top" alt="..." />
                                 <div className="card-body">
-                                    <p className="card-text">Komal rani<br></br></p>
+                                    <p className="card-text">Komal Rani<br></br></p>
                                 </div>
                             </div>
                         </div>
