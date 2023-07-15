@@ -12,6 +12,7 @@ import Members from './components/coordinator/members';
 import EventsReg from './components/eventsReg';
 import UserIdReg from './components/UserIdReg';
 import Details from './components/f_details';
+// import SponseredBy from './components/sponseredBy';
 import Animation from './components/animation';
 import Faculty from './components/coordinator/Faculty';
 import Core from './components/coordinator/core';
