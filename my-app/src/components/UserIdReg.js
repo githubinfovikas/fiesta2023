@@ -62,18 +62,6 @@ let UserIdReg = () => {
     //convertto base60
 
     let convertToBase64 = (e) => {
-        const { files } = e.target;
-        if (files[0].size > 1800000) {
-            toast.error(`file size is greater than 150 kb`, {
-                position: toast.POSITION.TOP_RIGHT,
-                autoClose: 3000,
-                hideProgressBar: false,
-                closeOnClick: true,
-                pauseOnHover: true,
-                draggable: true,
-            });
-        }
-        else {
             let reader = new FileReader();
             reader.readAsDataURL(e.target.files[0]);
             reader.onload = () => {
@@ -83,7 +71,7 @@ let UserIdReg = () => {
             reader.onerror = error => {
                 console.log("Error: ", error);
             };
-        }
+        
     }
 
     let uploadHandler = async (event) => {
