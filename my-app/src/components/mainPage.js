@@ -8,7 +8,6 @@ import litreture from '../photo/literature_debate.jpg';
 import fineArts from '../photo/fine_arts.jpg';
 // import firstAnimation from '../animation/1.mp4';
 import logoFiesta from '../photo/fiesta-logo.png';
-import Members from './coordinator/members';
 
 const MainPage = () => {
 
@@ -22,8 +21,14 @@ const MainPage = () => {
                 </video> */}
 
 
-            <div class="background"> 
+            {/* <div class="background">  */}
                  <div class="cube mx-auto"></div>
+
+            <div class="bg">
+            <div class="star-field">
+                <div class="layer-stars"></div>
+                <div class="layer-stars"></div>
+                <div class="layer-stars"></div>                
 
 
 
@@ -44,7 +49,7 @@ const MainPage = () => {
                         <img src={logoFiesta} alt={fineArts} style={{ width: '80vw' }} />
                     </div>
 
-
+</div>
 
 
                 </div>
