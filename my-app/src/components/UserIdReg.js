@@ -5,6 +5,7 @@ import axios from 'axios';
 import paytm from '../photo/paytm.jpg';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import Members from './coordinator/members';
 
 let UserIdReg = () => {
     let [name, newName] = useState("");
@@ -262,7 +263,7 @@ let UserIdReg = () => {
                                             <div className="card" style={{ border: 'none' }} >
                                                 <img src={paytm} className="card-img-top" alt="..." />
                                                 <div className="card-body">
-                                                    <p className="card-text"><b>Pay For All Event participation : ₹ 900/-</b>  <br /><b>Only Online Event participation : ₹ 199/-</b> </p>
+                                                    <p className="card-text"><b>Pay For all event participation per member : ₹ 900/-</b>  <br/><b>Only online event participation per member : ₹ 199/-</b></p>
                                                 </div>
                                             </div>
 

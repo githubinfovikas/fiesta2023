@@ -8,6 +8,7 @@ import litreture from '../photo/literature_debate.jpg';
 import fineArts from '../photo/fine_arts.jpg';
 // import firstAnimation from '../animation/1.mp4';
 import logoFiesta from '../photo/fiesta-logo.png';
+import Members from './coordinator/members';
 
 const MainPage = () => {
 
@@ -34,8 +35,8 @@ const MainPage = () => {
                             <b style={{ color: 'orange', fontSize: '4vh', fontWeight: '800', textShadow: '2px 2px 5px red' }}><pre>10<sup>th</sup> TO 12<sup>th</sup> AUGUST</pre></b>
 
                         </marquee>
-                        <p style={{ color: 'white', fontSize: '2vh' }}>For All Event participation : ₹ 900/-,
-                            For only Online Event participation : ₹ 199/-
+                        <p style={{ color: 'white', fontSize: '2vh' }}>For all event participation per member : ₹ 900/-,
+                            For only Online Event participation per member : ₹ 199/-
                         </p>
                     </div>
                     <div className="col-lg-12 col-sm-12 mt-5 " >
