@@ -11,7 +11,7 @@ function MyVerticallyCenteredModal(props) {
 
   let adminDetails = {
     email:"vikasdbg453@gmail.com",
-    password:"vikas>mit",
+    password:"vikas&fiesta&23",
     
   }
   let navigate = useNavigate();
