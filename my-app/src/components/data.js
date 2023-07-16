@@ -331,35 +331,35 @@ const data = {
             imgSrc: "https://imgur.com/WZHfnzk.png",
             title: 'Rangmanch – Theatre Play',
             about: '"Acting is magical. Change your look and your attitude, and you can be anyone" - Alicia Witt',
-            rulebook:"https://drive.google.com/file/d/10XvbRMR6iSnC1lrXZvJfpYkq68_8QC7Q/view?usp=sharing",
+            rulebook:"https://drive.google.com/file/d/1136gcJJr9bJXVeJV7DPYu7hMji0QIs8h/view?usp=sharing",
         },
         {
             id: 2,
             imgSrc: "https://imgur.com/wpyxQRa.png",
             title: 'Tamasha – Nukkad',
             about: '"Acting is magical change your look and your attitude and you can be anyone" - Alicia Witt',
-            rulebook:"https://drive.google.com/file/d/10XvbRMR6iSnC1lrXZvJfpYkq68_8QC7Q/view?usp=sharing",
+            rulebook:"https://drive.google.com/file/d/115sTH8qHZ_5fkdNJZKgF-4EOq4ecgs5m/view?usp=sharing",
         },
         {
             id: 3,
             imgSrc: "https://imgur.com/odEYl6i.png",
             title: 'Bayaan – Open Mic',
             about: '"Acting is magical change your look and your attitude and you can be anyone" - Alicia Witt',
-            rulebook:"https://drive.google.com/file/d/10XvbRMR6iSnC1lrXZvJfpYkq68_8QC7Q/view?usp=sharing",
+            rulebook:"https://drive.google.com/file/d/11ItdnF9IatOK0QmTnIAGbwy3-YEXpY7s/view?usp=sharing",
         },
         {
             id: 4,
             imgSrc: "https://imgur.com/yqjSeo8.png",
             title: 'Roobaroo – Monoact',
             about: '"Acting is magical change your look and your attitude and you can be anyone" - Alicia Witt',
-            rulebook:"https://drive.google.com/file/d/10XvbRMR6iSnC1lrXZvJfpYkq68_8QC7Q/view?usp=sharing",
+            rulebook:"https://drive.google.com/file/d/11L7MfZKw3cuTa_FCiEMz23EcUr_UnSw_/view?usp=sharing",
         },
         {
             id: 5,
             imgSrc: "https://imgur.com/yvDnCtK.png",
             title: 'Feel the Reel – Reels Making Competition',
             about: 'Online Event',
-            rulebook:"https://drive.google.com/file/d/10XvbRMR6iSnC1lrXZvJfpYkq68_8QC7Q/view?usp=sharing",
+            rulebook:"https://drive.google.com/file/d/11SqkAyO9hk2Ra_hqS94UKQESDyUzqhmM/view?usp=sharing",
         },
 
     ],
@@ -372,56 +372,56 @@ const data = {
             imgSrc: "https://imgur.com/T9tsE00.png",
             title: 'Saaz – The solo instrumental (without Vocal)',
             about: '“Music is a language that doesn’t speak in particular words. It speaks in emotions, and if it’s in the bones, it’s in the bones.” - Keith Richards',
-            rulebook:"https://drive.google.com/file/d/10W_3AnqToQnIZJTmU1SM908DC5m3BdyQ/view?usp=sharing",
+            rulebook:"https://drive.google.com/file/d/10dws571PfTFJy0Cm2uI05eRF9pSYIP_o/view?usp=sharing",
         },
         {
             id: 2,
             imgSrc: "https://imgur.com/Lwicjmv.png",
             title: 'Goonj – The solo Singing',
             about: '“Music is a language that doesn’t speak in particular words. It speaks in emotions, and if it’s in the bones, it’s in the bones.” - Keith Richards',
-            rulebook:"https://drive.google.com/file/d/10W_3AnqToQnIZJTmU1SM908DC5m3BdyQ/view?usp=sharing",
+            rulebook:"https://drive.google.com/file/d/10sUgNVsH6_aiZp5y4UzN82Jhx0YM-Xs4/view?usp=sharing",
         },
         {
             id: 3,
             imgSrc: "https://imgur.com/wDjskAi.png",
             title: 'Nrityanjali – A Classical Solo dance',
             about: '“Music is a language that doesn’t speak in particular words. It speaks in emotions, and if it’s in the bones, it’s in the bones.” - Keith Richards',
-            rulebook:"https://drive.google.com/file/d/10W_3AnqToQnIZJTmU1SM908DC5m3BdyQ/view?usp=sharing",
+            rulebook:"https://drive.google.com/file/d/10uqHdN8j2nu-hHjw5heh5Z_AMSFZ_SE0/view?usp=sharing",
         },
         {
             id: 4,
             imgSrc: "https://imgur.com/WxbhzuE.png",
             title: 'Elite Feet – A Solo dance',
             about: '“Music is a language that doesn’t speak in particular words. It speaks in emotions, and if it’s in the bones, it’s in the bones.” - Keith Richards',
-            rulebook:"https://drive.google.com/file/d/10W_3AnqToQnIZJTmU1SM908DC5m3BdyQ/view?usp=sharing",
+            rulebook:"https://drive.google.com/file/d/10hEqB5Yhfg4RsUhb3vpmRlgjZ3NKxujz/view?usp=sharing",
         },
         {
             id: 5,
             imgSrc: "https://imgur.com/qDbaVh4.png",
             title: 'Jasrang – The group singing ',
             about: '“Music is a language that doesn’t speak in particular words. It speaks in emotions, and if it’s in the bones, it’s in the bones.” - Keith Richards',
-            rulebook:"https://drive.google.com/file/d/10W_3AnqToQnIZJTmU1SM908DC5m3BdyQ/view?usp=sharing",
+            rulebook:"https://drive.google.com/file/d/10snywETyxmqrn1yH3jtSY72NjF-C7Ler/view?usp=sharing",
         },
         {
             id: 6,
             imgSrc: "https://imgur.com/DK9IpTh.png",
             title: 'The Grooves – Group Dance',
             about: '“Music is a language that doesn’t speak in particular words. It speaks in emotions, and if it’s in the bones, it’s in the bones.” - Keith Richards',
-            rulebook:"https://drive.google.com/file/d/10W_3AnqToQnIZJTmU1SM908DC5m3BdyQ/view?usp=sharing",
+            rulebook:"https://drive.google.com/file/d/10smW-65t2TO66MzgpF3c51-K5xhLlska/view?usp=sharing",
         },
         {
             id: 7,
             imgSrc: "https://imgur.com/xuw2jHa.png",
             title: 'Battle-on-street – A Solo Battle Dance ',
             about: '“Music is a language that doesn’t speak in particular words. It speaks in emotions, and if it’s in the bones, it’s in the bones.” - Keith Richards',
-            rulebook:"https://drive.google.com/file/d/10W_3AnqToQnIZJTmU1SM908DC5m3BdyQ/view?usp=sharing",
+            rulebook:"https://drive.google.com/file/d/11-OaZIHcxGHZyJRYWTHX0k8VRTh3ipFU/view?usp=sharing",
         },
         {
             id: 8,
             imgSrc: "https://imgur.com/ktKVgAE.png",
             title: 'Gangesta – The Solo Rap ',
             about: '“Music is a language that doesn’t speak in particular words. It speaks in emotions, and if it’s in the bones, it’s in the bones.” - Keith Richards',
-            rulebook:"https://drive.google.com/file/d/10W_3AnqToQnIZJTmU1SM908DC5m3BdyQ/view?usp=sharing",
+            rulebook:"https://drive.google.com/file/d/10xDXP7-zRd3NtBPFq80F_LygqPYFBNZn/view?usp=sharing",
         },
     ],
 
@@ -433,22 +433,22 @@ const data = {
             imgSrc: "https://imgur.com/HJFHeQO.png",
             title: 'Kavyanjali – Poetry / Shayari ',
             about: '“Debate, but do not argue. Challenge, but do not force your opinions. To win an argument, but lose a friendship, is a loss. To lose an argument, but retain a friendship, is gain.”― Matshona Dhliwayo',
-            rulebook:"https://drive.google.com/file/d/10OqG4c72oS1C_oDpYPonAk9MsCGKJRC8/view?usp=sharing",
+            rulebook:"https://drive.google.com/file/d/11oaZrMR9LJ9zJ0KnPLuRNz_eNVILZcQy/view?usp=sharing",
         },
         {
             id: 3,
             imgSrc: "https://imgur.com/XmTpGa8.png",
             title: 'Kissa kahani – Story Telling',
             about: '“Debate, but do not argue. Challenge, but do not force your opinions. To win an argument, but lose a friendship, is a loss. To lose an argument, but retain a friendship, is gain.”― Matshona Dhliwayo',
-            rulebook:"https://drive.google.com/file/d/10OqG4c72oS1C_oDpYPonAk9MsCGKJRC8/view?usp=sharing",
+            rulebook:"https://drive.google.com/file/d/11kZpeuxP5lYe0bMyFJUnX3-hgrxQuhUn/view?usp=sharing",
 
         },
         {
             id: 4,
             imgSrc: "https://imgur.com/OTFcGeY.png",
-            title: 'Khabar - Situatuon based journalism',
+            title: 'Khabar - Situatiuon based journalism',
             about: '“Debate, but do not argue. Challenge, but do not force your opinions. To win an argument, but lose a friendship, is a loss. To lose an argument, but retain a friendship, is gain.”― Matshona Dhliwayo',
-            rulebook:"https://drive.google.com/file/d/10OqG4c72oS1C_oDpYPonAk9MsCGKJRC8/view?usp=sharing",
+            rulebook:"https://drive.google.com/file/d/11Wcs6f1bIhFvidpfLz6l75JA2wTbs0O3/view?usp=sharing",
 
         },
         {
@@ -456,7 +456,7 @@ const data = {
             imgSrc: "https://imgur.com/E0f56bx.png",
             title: 'Shastrarth – Parliamentary Debate',
             about: '“Debate, but do not argue. Challenge, but do not force your opinions. To win an argument, but lose a friendship, is a loss. To lose an argument, but retain a friendship, is gain.”― Matshona Dhliwayo',
-            rulebook:"https://drive.google.com/file/d/10OqG4c72oS1C_oDpYPonAk9MsCGKJRC8/view?usp=sharing",
+            rulebook:"https://drive.google.com/file/d/11ZcTJofaWJsszi4BDnv3YHDTQhWk2pUO/view?usp=sharing",
 
         },
         {
@@ -464,7 +464,7 @@ const data = {
             imgSrc: "https://imgur.com/bZ2iBp4.png",
             title: 'Quizomania – Quiz',
             about: '“Debate, but do not argue. Challenge, but do not force your opinions. To win an argument, but lose a friendship, is a loss. To lose an argument, but retain a friendship, is gain.”― Matshona Dhliwayo',
-            rulebook:"https://drive.google.com/file/d/10OqG4c72oS1C_oDpYPonAk9MsCGKJRC8/view?usp=sharing",
+            rulebook:"https://drive.google.com/file/d/11ikIEhwvztQaPuulXqxvNl0cl94-ITPd/view?usp=sharing",
 
         },
         {
@@ -472,7 +472,7 @@ const data = {
             imgSrc: "https://imgur.com/wqjQhZX.png",
             title: 'Tech Lekh – Technical Writing',
             about: '“Debate, but do not argue. Challenge, but do not force your opinions. To win an argument, but lose a friendship, is a loss. To lose an argument, but retain a friendship, is gain.”― Matshona Dhliwayo',
-            rulebook:"https://drive.google.com/file/d/10OqG4c72oS1C_oDpYPonAk9MsCGKJRC8/view?usp=sharing",
+            rulebook:"https://drive.google.com/file/d/11rVxEOkRWrABXisojR9_3nl2zOZI2gyu/view?usp=sharing",
 
         },
         {
@@ -480,7 +480,7 @@ const data = {
             imgSrc: "https://imgur.com/NTb1V7Y.png",
             title: 'Patrakar – Video Journalism ',
             about: '“Debate, but do not argue. Challenge, but do not force your opinions. To win an argument, but lose a friendship, is a loss. To lose an argument, but retain a friendship, is gain.”― Matshona Dhliwayo',
-            rulebook:"https://drive.google.com/file/d/10OqG4c72oS1C_oDpYPonAk9MsCGKJRC8/view?usp=sharing",
+            rulebook:"https://drive.google.com/file/d/11fWqqpMrCYKzhQRhPtI6spJ5DcbUOrcO/view?usp=sharing",
 
         },
         {
@@ -488,7 +488,7 @@ const data = {
             imgSrc: "https://imgur.com/SG18yFu.png",
             title: 'Hasya – Meme Designing',
             about: '“Debate, but do not argue. Challenge, but do not force your opinions. To win an argument, but lose a friendship, is a loss. To lose an argument, but retain a friendship, is gain.”― Matshona Dhliwayo',
-            rulebook:"https://drive.google.com/file/d/10OqG4c72oS1C_oDpYPonAk9MsCGKJRC8/view?usp=sharing",
+            rulebook:"https://drive.google.com/file/d/11U95I4yEdcOsKOXvZB5rLn8L3J-lAv8Z/view?usp=sharing",
 
         },
     ],
@@ -500,7 +500,7 @@ const data = {
             imgSrc: "https://imgur.com/m2lSAQE.png",
             title: 'Talking Strokes (Painting)',
             about: '“I found I could say things with color and shapes that I couldn’t say any other way.” - Georgia O’Keeffe',
-            rulebook:"https://drive.google.com/file/d/10JOwgKtclDDwqFmRWG2f9suxzu8UlkQc/view?usp=sharing",
+            rulebook:"https://drive.google.com/file/d/126T_kBdqh84WDSRSKXbbcj31D0jrnHYj/view?usp=sharing",
 
         },
         {
@@ -508,21 +508,21 @@ const data = {
             imgSrc: "https://imgur.com/JvSYKLu.png",
             title: 'Mukhauta (Face Painting)',
             about: '“I found I could say things with color and shapes that I couldn’t say any other way.” - Georgia O’Keeffe',
-            rulebook:"https://drive.google.com/file/d/10JOwgKtclDDwqFmRWG2f9suxzu8UlkQc/view?usp=sharing",
+            rulebook:"https://drive.google.com/file/d/12JlfgVAkUvVTjKmW0jcfjisOkOxjh1Yb/view?usp=sharing",
         },
         {
             id: 3,
             imgSrc: "https://imgur.com/WwJqJ3C.png",
             title: ' Chitrakari (Sketching)',
             about: '“I found I could say things with color and shapes that I couldn’t say any other way.” - Georgia O’Keeffe',
-            rulebook:"https://drive.google.com/file/d/10JOwgKtclDDwqFmRWG2f9suxzu8UlkQc/view?usp=sharing",
+            rulebook:"https://drive.google.com/file/d/126QHES3Y3rK_DP4dzpkIwwfRwFD6mHz3/view?usp=sharing",
         },
         {
             id: 4,
             imgSrc: "https://imgur.com/xqDPnxV.png",
             title: 'Rang-Neeti (Rangoli)',
             about: '“I found I could say things with color and shapes that I couldn’t say any other way.” - Georgia O’Keeffe',
-            rulebook:"https://drive.google.com/file/d/10JOwgKtclDDwqFmRWG2f9suxzu8UlkQc/view?usp=sharing",
+            rulebook:"https://drive.google.com/file/d/11yPvLSdPLNLXpbIa0QRR8zKj-Zc6d2wU/view?usp=sharing",
 
         },
         {
@@ -530,21 +530,21 @@ const data = {
             imgSrc: "https://imgur.com/NF46yZA.png",
             title: 'Wall Rush (wall Painting)',
             about: '“I found I could say things with color and shapes that I couldn’t say any other way.” - Georgia O’Keeffe',
-            rulebook:"https://drive.google.com/file/d/10JOwgKtclDDwqFmRWG2f9suxzu8UlkQc/view?usp=sharing",
+            rulebook:"https://drive.google.com/file/d/11uVG0IJ7ylEPL0wCqNgdh2QSG52qRiou/view?usp=sharing",
         },
         {
             id: 6,
             imgSrc: "https://imgur.com/fHIL4lE.png",
             title: 'Rangbaazi (Finger Painting)',
             about: '“I found I could say things with color and shapes that I couldn’t say any other way.” - Georgia O’Keeffe',
-            rulebook:"https://drive.google.com/file/d/10JOwgKtclDDwqFmRWG2f9suxzu8UlkQc/view?usp=sharing",
+            rulebook:"https://drive.google.com/file/d/12-cpSxqAWxiyjr5ccMhwTSD2x4bxuKGC/view?usp=sharing",
         },
         {
             id: 7,
             imgSrc: "https://imgur.com/OwndQNC.png",
             title: 'Snappers (Photography)',
             about: '“I found I could say things with color and shapes that I couldn’t say any other way.” - Georgia O’Keeffe',
-            rulebook:"https://drive.google.com/file/d/10JOwgKtclDDwqFmRWG2f9suxzu8UlkQc/view?usp=sharing",
+            rulebook:"https://drive.google.com/file/d/11ywJzwi2x42rSv-sKmb9GRO5C3rbPqAL/view?usp=sharing",
         },
     ],
 
