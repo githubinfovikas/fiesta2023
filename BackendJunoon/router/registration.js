@@ -31,8 +31,8 @@ router.post('/register-event', async (req, res) => {
                     html: `
                       <p>Event Name:<strong> ${registerationDetails.event}</strong></p>
                       <p>Leader Name:<strong> ${registerationDetails.leaderName}</strong></p>
-                      <p>User ID:<strong>${registerationDetails.leaderUserID}</strong></p>
-                      <p>User ID:<strong>${JSON.stringify(userIdList)}</strong></p>
+                      <p>Leader User ID:<strong>${registerationDetails.leaderUserID}</strong></p>
+                      <p>Member User ID:<strong>${JSON.stringify(userIdList)}</strong></p>
                       <a href="fiestamit.in"><strong>Official Page</strong></a>
                      `
                 }

@@ -27,7 +27,7 @@ function MyVerticallyCenteredModal(props) {
   let loginHandler = (event)=>{
     event.preventDefault();
     if(email===adminDetails.email && password === adminDetails.password){
-      navigate('/aksdfjl/adsfjlkasd/akjfdlkajflskd/aslkdjflkasjf/akfjdsklsdoruoi/eroiikjvc/aksjdfklaioe/lskfdjlk/skdjflksj/rwpeopweri/fkaldkf/adkjfeouriwuro/kdajflasdjfoiuew.in');
+      navigate('/aksdfjl/adsfjlkasd/akjfdlkajflskd/aslkdjflkasjf/akfjdsklsdoruoi/vikasmit/shavi/vikas/shavivikasmit/shavi/vikas/shavivikasmit/shavi/vikas/shavieroiikjvc/aksjdfklaioe/lskfdjlk/skdjflksj/rwpeopweri/fkaldkf/adkjfeouriwuro/vikasmit/shavi/vikas/shavi/jflasdjfoiuew.in');
 
     }else{
       toast.error('Wrong Credentials', {
