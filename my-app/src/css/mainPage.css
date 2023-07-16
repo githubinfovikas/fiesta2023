@@ -1,46 +1,109 @@
-.bg-first{
-    /* ; */
-    height: 35vh;
-    width: 100vw;
+.bg-first {
+  /* ; */
+  height: 35vh;
+  width: 100vw;
 }
-.image-logo{
-    border-radius: 50%;
+
+.image-logo {
+  border-radius: 50%;
 }
-.vikash{
-    text-align: center;
-    
+
+.vikash {
+  text-align: center;
+
 }
-.hower:hover{
-    background-color: brown;
+
+.hower:hover {
+  background-color: brown;
 }
+
 .video-background-container {
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
-  }
-  
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.video-background {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1;
+  background-size: cover;
+}
+
+@media screen and (max-width: 768px) {
   .video-background {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: -1;
-    background-size: cover;
+    background-size: contain;
   }
-  
-  @media screen and (max-width: 768px) {
-    .video-background {
-      background-size: contain;
-    }
-  }
+}
 
 
 
-  .sponserbody{
-    background-color: rgb(29, 203, 234);
+.sponserbody {
+  background-color: rgb(29, 203, 234);
+}
+
+
+
+
+.background {
+  background: linear-gradient(90deg, #1bd3c4, #7cf2ff, #591BC5, #212335);
+  background-size: 400% 400%;
+  animation: Gradient 10s ease infinite;
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+.cube {
+  position: absolute;
+
+  top: 50%;
+  left: 50%;
+  width: 20px;
+  height: 20px;
+  transform-origin: center center;
+  border: solid 0.5px #ebeaec;
+  border-radius: 50%;
+  transform-origin: top left;
+  transform: scale(0) rotate(0deg) translate(-50%, -50%);
+  animation: cube 10s ease-in forwards infinite;
+}
+
+
+@keyframes Gradient {
+  0% {
+    background-position: 0% 50%;
   }
+
+  25% {
+    background-position: 40% 30%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes cube {
+  from {
+    transform: scale(0) rotate(0deg) translate(-50%, -50%);
+    opacity: 1;
+  }
+
+  to {
+    transform: scale(20) rotate(960deg) translate(-50%, -50%);
+    opacity: 0;
+  }
+}

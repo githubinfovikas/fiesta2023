@@ -6,9 +6,8 @@ import actingDrama from '../photo/acting_drama.jpg';
 import musicDance from '../photo/music_dance.jpg';
 import litreture from '../photo/literature_debate.jpg';
 import fineArts from '../photo/fine_arts.jpg';
-import firstAnimation from '../animation/1.mp4';
+// import firstAnimation from '../animation/1.mp4';
 import logoFiesta from '../photo/fiesta-logo.png';
-
 
 const MainPage = () => {
 
@@ -16,10 +15,16 @@ const MainPage = () => {
 
         <div>
 
-            <div className='video-background-container' >
-                <video autoPlay muted loop className="video-background">
+            {/* <div className='video-background-container' > */}
+            {/* <video autoPlay muted loop className="video-background">
                     <source src={firstAnimation} type="video/mp4" />
-                </video>
+                </video> */}
+
+
+            <div class="background"> 
+                 <div class="cube mx-auto"></div>
+
+
 
                 <div className="row">
 
@@ -29,11 +34,11 @@ const MainPage = () => {
                             <b style={{ color: 'orange', fontSize: '4vh', fontWeight: '800', textShadow: '2px 2px 5px red' }}><pre>10<sup>th</sup> TO 12<sup>th</sup> AUGUST</pre></b>
 
                         </marquee>
-                        <p style={{color:'white',fontSize:'2vh'}}>For All Event participation : ₹ 900/-, 
-                            For only Online Event participation : ₹ 199/- 
-                            </p>
+                        <p style={{ color: 'white', fontSize: '2vh' }}>For All Event participation : ₹ 900/-,
+                            For only Online Event participation : ₹ 199/-
+                        </p>
                     </div>
-                    <div className="col-lg-12 col-sm-12 mt-5" >
+                    <div className="col-lg-12 col-sm-12 mt-5 " >
 
                         <img src={logoFiesta} alt={fineArts} style={{ width: '80vw' }} />
                     </div>

@@ -1,12 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.c584da93.css",
-    "main.js": "/static/js/main.fa2304b5.js",
+    "main.css": "/static/css/main.5102cd0f.css",
+    "main.js": "/static/js/main.03c38f6f.js",
     "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
     "static/media/vikastech.png": "/static/media/vikastech.394a9c34a32a31218046.png",
     "static/media/gautamtech.png": "/static/media/gautamtech.79d3fdda6dd0db1f94c0.png",
     "static/media/saurabh.jpg": "/static/media/saurabh.5893c69691b6c2ea7db8.jpg",
-    "static/media/1.mp4": "/static/media/1.257cefda1cf6c3927f58.mp4",
     "static/media/vinay.jpg": "/static/media/vinay.a44036edb393b41edbd8.jpg",
     "static/media/randhir.jpg": "/static/media/randhir.1360f8215c4bf916e0e0.jpg",
     "static/media/shalinitech.jpg": "/static/media/shalinitech.bf646571fd4472321a22.jpg",
@@ -32,12 +31,12 @@
     "static/media/shivam.jpg": "/static/media/shivam.d93d310bb92261aa31f7.jpg",
     "static/media/ashish.jpg": "/static/media/ashish.c434145ee78eea2159ba.jpg",
     "index.html": "/index.html",
-    "main.c584da93.css.map": "/static/css/main.c584da93.css.map",
-    "main.fa2304b5.js.map": "/static/js/main.fa2304b5.js.map",
+    "main.5102cd0f.css.map": "/static/css/main.5102cd0f.css.map",
+    "main.03c38f6f.js.map": "/static/js/main.03c38f6f.js.map",
     "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c584da93.css",
-    "static/js/main.fa2304b5.js"
+    "static/css/main.5102cd0f.css",
+    "static/js/main.03c38f6f.js"
   ]
 }
