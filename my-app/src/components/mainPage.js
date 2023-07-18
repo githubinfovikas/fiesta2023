@@ -22,7 +22,7 @@ const MainPage = () => {
 
 
             {/* <div class="background">  */}
-                 <div class="cube mx-auto"></div>
+                 {/* <div class="cube mx-auto"></div> */}
 
             <div class="bg">
             <div class="star-field">
