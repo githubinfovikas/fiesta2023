@@ -7,6 +7,7 @@ import musicDance from '../photo/music_dance.jpg';
 import litreture from '../photo/literature_debate.jpg';
 import fineArts from '../photo/fine_arts.jpg';
 import logoFiesta from '../photo/fiesta-logo.png';
+import Registration from './Admin/registrationApi';
 
 const MainPage = () => {
 
@@ -32,11 +33,15 @@ const MainPage = () => {
                             <p style={{ color: 'white', fontSize: '2vh' }}>For all event participation per member : ₹ 900/-,
                                 For only Online Event participation per member : ₹ 199/-
                             </p>
+                            <p style={{ color: 'white', fontSize: '2vh' }}>
+                                Registration last date 30 <sup>th</sup> JULY
+                            </p>
+
                             <a href='/userId-reg' className='btn btn-primary hower mx-auto m-2' style={{ width: '30vh' }} >Register </a>
                         </div>
                         <div className="col-lg-12 col-sm-12" >
 
-                            <img src={logoFiesta} alt={fineArts} style={{ width: '80vw' }} />
+                            <img src={logoFiesta} alt={fineArts} style={{ width: '80vw',margin:'-5vh' }} />
                         </div>
 
                     </div>
