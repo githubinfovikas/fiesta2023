@@ -286,7 +286,7 @@ let UserIdReg = () => {
                                         <Form.Group controlId="paymentImage" className=' mb-2  d-flex ' >
                                             <Form.Control type="file" placeholder="upload" onChange={convertToBase64} required />
                                         </Form.Group>
-                                        <p>upload fee receipt (size less than 150kb)</p>
+                                        <p>upload fee receipt (size less than 250kb)</p>
 
 
 
