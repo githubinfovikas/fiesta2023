@@ -245,6 +245,8 @@ let UserIdReg = () => {
                                                     <option >S</option>
                                                     <option  >M</option>
                                                     <option>L</option>
+                                                    <option>XL</option>
+
                                                 </Form.Select>
                                             </Form.Group>
 
