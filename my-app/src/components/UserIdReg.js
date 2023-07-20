@@ -302,6 +302,8 @@ let UserIdReg = () => {
 
                             </Card.Body>
                             <a href='/form-fill' style={{ textDecoration: 'none' }} ><b>How to fill form </b></a>
+                            <p>While facing issues regarding registration then you can contact us at (9798525268)</p>
+
                         </Card>
                     </Col>
                 </Row>
