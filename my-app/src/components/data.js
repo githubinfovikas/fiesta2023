@@ -64,11 +64,11 @@ const data = {
         },
         {
             id: 10,
-            imgSrc: 'https://imgur.com/RfKqa2G.png',
+            imgSrc: 'https://imgur.com/MKlT1S5.png',
         },
         {
             id: 11,
-            imgSrc: 'https://imgur.com/ris7I7m.png',
+            imgSrc: 'https://imgur.com/WYMYTjH.png',
         }, {
             id: 12,
             imgSrc: 'https://imgur.com/wr4M1vl.png',

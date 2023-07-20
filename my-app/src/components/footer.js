@@ -13,7 +13,7 @@ function Footer() {
 
     return (
         <div className='footer '>
-            <marquee behavior="scroll" direction="left" scrollamount="15">
+            <marquee behavior="scroll" direction="left" scrollamount="7">
                 <h5 className="ms-3 mb-4 pt-2">Muzaffarpur Institute of Technology, Muzaffarpur</h5> <br></br>
             </marquee>
             <br></br>

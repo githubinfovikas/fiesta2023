@@ -6,7 +6,6 @@ import actingDrama from '../photo/acting_drama.jpg';
 import musicDance from '../photo/music_dance.jpg';
 import litreture from '../photo/literature_debate.jpg';
 import fineArts from '../photo/fine_arts.jpg';
-// import firstAnimation from '../animation/1.mp4';
 import logoFiesta from '../photo/fiesta-logo.png';
 
 const MainPage = () => {
@@ -15,41 +14,32 @@ const MainPage = () => {
 
         <div>
 
-            {/* <div className='video-background-container' > */}
-            {/* <video autoPlay muted loop className="video-background">
-                    <source src={firstAnimation} type="video/mp4" />
-                </video> */}
-
-
-            {/* <div class="background">  */}
-                 {/* <div class="cube mx-auto"></div> */}
-
             <div class="bg">
-            <div class="star-field">
-                <div class="layer-stars"></div>
-                <div class="layer-stars"></div>
-                <div class="layer-stars"></div>                
+                <div class="star-field">
+                    <div class="layer-stars"></div>
+                    <div class="layer-stars"></div>
+                    <div class="layer-stars"></div>
 
 
+                    <div className="row">
 
-                <div className="row">
+                        <div className='mb-4 ' style={{ marginTop: '10vh' }}>
+                            <b style={{ color: 'white', }}><spam>The Inter College Cultural Fest of MIT Muzaffarpur</spam></b><br></br><br></br>
+                            <marquee behavior="scroll" direction="left" scrollamount="15">
+                                <b style={{ color: 'orange', fontSize: '4vh', fontWeight: '800', textShadow: '2px 2px 5px red' }}><pre>10<sup>th</sup> TO 12<sup>th</sup> AUGUST</pre></b>
 
-                    <div className='mb-4 ' style={{ marginTop: '10vh' }}>
-                        <b style={{ color: 'white', }}><spam>The Inter College Cultural Fest of MIT Muzaffarpur</spam></b><br></br><br></br>
-                        <marquee behavior="scroll" direction="left" scrollamount="15">
-                            <b style={{ color: 'orange', fontSize: '4vh', fontWeight: '800', textShadow: '2px 2px 5px red' }}><pre>10<sup>th</sup> TO 12<sup>th</sup> AUGUST</pre></b>
+                            </marquee>
+                            <p style={{ color: 'white', fontSize: '2vh' }}>For all event participation per member : ₹ 900/-,
+                                For only Online Event participation per member : ₹ 199/-
+                            </p>
+                            <a href='/userId-reg' className='btn btn-primary hower mx-auto m-2' style={{ width: '30vh' }} >Register </a>
+                        </div>
+                        <div className="col-lg-12 col-sm-12" >
 
-                        </marquee>
-                        <p style={{ color: 'white', fontSize: '2vh' }}>For all event participation per member : ₹ 900/-,
-                            For only Online Event participation per member : ₹ 199/-
-                        </p>
+                            <img src={logoFiesta} alt={fineArts} style={{ width: '80vw' }} />
+                        </div>
+
                     </div>
-                    <div className="col-lg-12 col-sm-12 mt-5 " >
-
-                        <img src={logoFiesta} alt={fineArts} style={{ width: '80vw' }} />
-                    </div>
-
-</div>
 
 
                 </div>
