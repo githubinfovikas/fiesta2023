@@ -95,7 +95,7 @@ router.post('/upload', async (req, res) => {
             }
             mailService(mailOptions);
             res.status(200).json({
-                message: "Uploaded successfully",
+                message: "Your registration has been successful. Please check your email for fiesta'23 User ID",
                 success: true,
                 response: data,
             })
