@@ -93,7 +93,7 @@ let UserIdReg = () => {
             .then(response => {
                 console.log('Post created successfully');
                 console.log('Response:', response.data);
-                toast.success(`Uploaded successfully`, {
+                toast.success(`Your registration has been successful. Please check your email for User ID`, {
                     position: toast.POSITION.TOP_RIGHT,
                     autoClose: 3000,
                     hideProgressBar: false,
