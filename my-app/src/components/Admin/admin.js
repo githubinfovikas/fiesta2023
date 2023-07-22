@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react';
 import axios from 'axios';
 import MyVerticallyCenteredModal from './dataUpdateModel';
 
+
 function Admin() {
     const [imageList, setImageList] = useState([]);
     const [isLoaded, setIsLoaded] = useState([]);
@@ -13,7 +14,7 @@ function Admin() {
             'Content-Type': 'application/json',
             Accept: 'application/json',
         };
-        axios.get(`/all`, { headers })
+        axios.get(`http://localhost:1060/all`, { headers })
             .then(response => {
                 console.log('get images successfully');
                 console.log('Response:', response.data);
@@ -74,6 +75,7 @@ function Admin() {
                                         {item.userID}<br></br>
                                         T-Shirt Size: {item.tshirt}<br></br>
                                         Tr. ID:{item.trID}<br></br>
+                                        <b style={{ color: "green" }}>{item.paidOnlineEvent ? "Online Event Paid : true" : <b style={{ color: 'red' }}>Online Event Paid : false</b>}</b> <br></br>
                                         <b style={{ color: "green" }}>{item.paid ? "Paid : true" : <b style={{ color: 'red' }}>Paid : false</b>}</b> <br></br>
                                     </Card.Body>
 

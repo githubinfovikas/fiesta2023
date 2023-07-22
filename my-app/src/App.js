@@ -25,6 +25,7 @@ import Sponser from './components/help/sponser';
 import Admin from './components/Admin/admin'
 import Registration from './components/Admin/registrationApi';
 import AdminHeader from './components/Admin/adminHeader';
+import OnlineEventReg from './components/onlineEventReg';
 function App() {
 
   return (
@@ -46,6 +47,7 @@ function App() {
           <Route path='members' element={<div><Header/><Members/><Footer/></div>}/>
           <Route path='gallery' element={<div><Header/><Gallery/><Footer/></div>}/> 
           <Route path='event-reg' element={<div><Header/><EventsReg/></div>}/> 
+          <Route path='OnlineEventReg' element={<div><Header/><OnlineEventReg/></div>} />
           <Route path='userId-reg' element={<div><Header/><UserIdReg/><Footer/></div>}/> 
           <Route path='details' element={<div><Header/><Details/><Footer/></div>}/> 
           <Route path='facilityCoordinator' element={<div><Header/><Faculty/><Footer/></div>}/>

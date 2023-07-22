@@ -62,7 +62,7 @@ function MyVerticallyCenteredModal(props) {
     }
     axios.put('/removeImage',JSON.stringify(body), {headers} )
     .then(res =>{ console.log(res);
-      toast.success('Success !', {
+      toast.success('Paid update !', {
         position: toast.POSITION.TOP_RIGHT,
         autoClose: 3000,
         hideProgressBar: false,
@@ -83,6 +83,47 @@ function MyVerticallyCenteredModal(props) {
       });
     });
   }
+
+
+
+  let onlineEventClickHandler = (event) => {
+    event.preventDefault();
+    const headers = {
+      'Content-Type': 'application/json',
+      Accept: 'application/json',
+      
+    };
+    const body = {
+      email:email,
+    }
+    axios.put('/OnlineEventUpdate',JSON.stringify(body), {headers} )
+    .then(res => {
+      console.log(res);
+      toast.success('Online Event Payment Update', {
+        position: toast.POSITION.TOP_RIGHT,
+        autoClose: 3000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+      });
+    })
+    .catch(error => {
+      console.error(error);
+      toast.error('Error !', {
+        position: toast.POSITION.TOP_RIGHT,
+        autoClose: 3000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+      });
+    });
+  
+
+  }
+
+
   return (
     <>
     <ToastContainer />
@@ -117,6 +158,8 @@ function MyVerticallyCenteredModal(props) {
           <span></span>
           <Nav.Link href="#" className='text-light nav-animation ' variant='dark' onClick={paymentClickHandler}><b className='btn btn-info hower'>Update Payment</b></Nav.Link>
           <Nav.Link href="#" className='text-light nav-animation ' variant='dark' onClick={imageClickHandler}><b className='btn btn-info hower' >Image Remove</b></Nav.Link>
+          <Nav.Link href="#" className='text-light nav-animation ' variant='dark' onClick={onlineEventClickHandler}><b className='btn btn-info hower'>OnlineEvent Payment</b></Nav.Link>
+
         </Modal.Footer>
       </Modal>
     </>

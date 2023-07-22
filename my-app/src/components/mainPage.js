@@ -7,7 +7,6 @@ import musicDance from '../photo/music_dance.jpg';
 import litreture from '../photo/literature_debate.jpg';
 import fineArts from '../photo/fine_arts.jpg';
 import logoFiesta from '../photo/fiesta-logo.png';
-import Registration from './Admin/registrationApi';
 
 const MainPage = () => {
 
@@ -41,7 +40,7 @@ const MainPage = () => {
                         </div>
                         <div className="col-lg-12 col-sm-12" >
 
-                            <img src={logoFiesta} alt={fineArts} style={{ width: '80vw',margin:'-5vh' }} />
+                            <img src={logoFiesta} alt={fineArts} style={{ width: '70vw',margin:'-5vh' }} />
                         </div>
 
                     </div>

@@ -11,6 +11,7 @@ let student = new mongoose.Schema({
     tshirt:{type:String,required:true},
     userID:{type:String, required:true},
     paid:{type:Boolean, default:false},
+    paidOnlineEvent:{type:Boolean,default:false},
     trID:{type:String},
     image: { type:String },
 })

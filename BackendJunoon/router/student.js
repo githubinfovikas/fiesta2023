@@ -111,6 +111,7 @@ router.post('/upload', async (req, res) => {
 
 })
 
+
 router.put('/update', async (req, res) => {
     try {
         console.log(req.body.email);
@@ -166,4 +167,39 @@ router.put('/removeImage', async (req, res) => {
         })
     }
 })
+
+
+
+// OnlineEventUpdate
+router.put('/OnlineEventUpdate', async (req, res) => {
+    try {
+        console.log(req.body.email);
+        let data = await StudentModel.updateOne({ email: req.body.email }, { $set: { paidOnlineEvent: true } });
+
+        if (data.matchedCount === 0) {
+            res.status(400).json({
+                message: "Wrong Email",
+                success: false,
+                response: data,
+            })
+        } else {
+            res.status(200).json(
+                {
+                    message: " Online Event Paid modified successfully ",
+                    success: true,
+                    response: data,
+                }
+            )
+        }
+
+    } catch (e) {
+        res.status(500).json({
+            message: "Internal server error !",
+            success: false,
+        })
+    }
+})
+
+
+
 module.exports = router;

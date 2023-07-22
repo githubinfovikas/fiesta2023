@@ -6,7 +6,7 @@ import '../css/eventsReg.css'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
-const EventRegistrationForm = () => {
+const OnlineEventReg = () => {
     let [eventName, setEventName] = useState("");
     let [leaderName, setLeaderName] = useState("");
     let [leaderUserID, setLeaderUserID] = useState("");
@@ -14,7 +14,6 @@ const EventRegistrationForm = () => {
     let [phoneNumber1, setPhoneNumber1] = useState("");
     let [phoneNumber2, setPhoneNumber2] = useState("");
     let [email, setEmail] = useState("");
-    let [members, setMembers] = useState([{ userId: null }]);
     const [baseUrl, setBaseUrl] = useState('');
     let eventNameHandler = (event) => {
         setEventName(event.target.value);
@@ -39,19 +38,6 @@ const EventRegistrationForm = () => {
     }
 
 
-    let handleAddMember = (event) => {
-        setMembers([...members, { userId: null }]);
-    };
-
-
-
-    let handleMemberChange = (event, index) => {
-        const newMembers = [...members];
-        newMembers[index][event.target.name] = event.target.value;
-        setMembers(newMembers);
-    };
-
-
     useEffect(() => {
         const getBaseUrl = () => {
             const { protocol, host } = window.location;
@@ -64,7 +50,6 @@ const EventRegistrationForm = () => {
 
     const handleSubmit = async (event) => {
         event.preventDefault();
-        console.log(members);
         let eventDetails = {
             event: eventName,
             leaderName: leaderName,
@@ -73,13 +58,12 @@ const EventRegistrationForm = () => {
             mobileNo1: phoneNumber1,
             mobileNo2: phoneNumber2,
             email: email,
-            memberNameAndUserID: members,
         }
 
         let response = null;
 
         try {
-            response = await axios.post(`/register-event`, JSON.stringify(eventDetails), {
+            response = await axios.post(`/onlineEventReg`, JSON.stringify(eventDetails), {
                 headers: { 'Content-Type': 'application/json' }
             });
             let { data } = response;
@@ -99,7 +83,6 @@ const EventRegistrationForm = () => {
             setPhoneNumber1('');
             setPhoneNumber2('');
             setEmail('');
-            setMembers([{ userId: '' }]);
 
         } catch (error) {
             if (error.response) {
@@ -149,7 +132,7 @@ const EventRegistrationForm = () => {
                         <Card className="shadow px-lg-4">
                             <Card.Body>
                                 <div >
-                                    <h2 className="fw-bold mb-4  text mt-5"><span className='reg'>Event Registration</span></h2>
+                                    <h2 className="fw-bold mb-4  text mt-5"><span className='reg'>Online Event Registration</span></h2>
                                     <div className="mb-3">
                                         <Form onSubmit={handleSubmit} className='mb-2' >
 
@@ -158,34 +141,11 @@ const EventRegistrationForm = () => {
                                             <Form.Group controlId="formSelector" className='mb-2' >
                                                 <Form.Select onChange={eventNameHandler} required>
                                                     <option>Select Event</option>
-                                                    {/* Music & Dance */}
-                                                    <option  >Saaz – The solo instrumental (without Vocal)</option>
-                                                    <option  >Goonj – The solo Singing</option>
-                                                    <option  >Nrityanjali – A Classical Solo dance</option>
-                                                    <option  >Elite Feet – A Solo dance</option>
-                                                    <option  >Jasrang – The group singing</option>
-                                                    <option  >The Grooves – A Group Dance</option>
-                                                    <option  >Battle-on-Street – A Solo Battle Dance</option>
-                                                    <option  >Gangesta – The Solo Rap</option>
-                                                    {/* Acting & Drama  */}
-                                                    <option >Rangmanch – Theatre Play </option>
-                                                    <option >Tamasha – Nukkad</option>
-                                                    <option >Bayaan – Open Mic</option>
-                                                    <option >Roobaroo – Monoact</option>
-                                                    {/* l & D  */}
-                                                    <option  >Kavyanjali – Poetry / Shayari</option>
-                                                    <option  >Kissa kahani – Story Telling</option>
-                                                    <option  >Khabar – A Situation based journalism </option>
-                                                    <option  >Shastrarth – A Parliamentary Debate</option>
-                                                    <option  > Quizomania – Quiz </option>
-                                                    <option  >Tech Lekh – Technical Writing</option>
-                                                    {/* Fine & Arts  */}
-                                                    <option  >Talking Strokes (Painting) </option>
-                                                    <option  >Mukhauta (Face Painting)  </option>
-                                                    <option  >Chitrakari (Sketching)</option>
-                                                    <option  >Rang-Neeti (Rangoli)</option>
-                                                    <option  >Wall Rush (wall Painting) </option>
-                                                    <option > Rangbaazi (Finger Painting)</option>
+                                                    {/* Online Event */}
+                                                    <option >Feel the Reel – Reels Making (Online Events)</option>
+                                                    <option  > Patrakar – Video Journalism(Online Event)</option>
+                                                    <option  > Hasya – Meme Designing(Online Event) </option>
+                                                    <option  >Snappers (Photography-Online Events) </option>
 
                                                 </Form.Select>
                                             </Form.Group>
@@ -214,23 +174,7 @@ const EventRegistrationForm = () => {
                                                 <FormLabel>Email</FormLabel>
                                                 <Form.Control value={email} type="text" placeholder="Enter Email Id" onChange={emailHandler} required />
                                             </Form.Group>
-                                            {/* Members Details  */}
-                                            <p style={{ fontSize: '12px', marginBottom: '-2px' }}><spam style={{ color: 'red' }} >***</spam>Member User id not required for solo participant, Proceed for submission<spam style={{ color: 'red' }} >***</spam></p>
-                                            <FormLabel >Member User Id</FormLabel>
 
-                                            {members.map((member, index) => (
-                                                <div key={index} className='row'>
-                                                    <div className='col-lg-10 col-sm-12 mb-2 mx-auto' style={{ display: 'flex', justifyContent: 'center' }}>
-                                                        <Form.Group controlId={`memberEmail${index}`}>
-                                                            <Form.Control type="userId" placeholder="User Id" name="userId" value={member.userId} onChange={(event) => handleMemberChange(event, index)} />
-                                                        </Form.Group>
-                                                        <Button variant="secondary" onClick={handleAddMember} className='mx-2 addmember hower' style={{ fontSize: 8 }} >
-                                                            Add Member
-                                                        </Button>
-                                                    </div>
-                                                </div>
-
-                                            ))}
 
                                             <div>
                                                 <Button variant="danger" type="handleSubmit" className='mt-5 ereg hower ' style={{ marginLeft: '-9px' }} >
@@ -240,12 +184,7 @@ const EventRegistrationForm = () => {
                                             </div>
 
                                         </Form>
-                                        <div className="mt-5">
-                                            <p className=" text-center">
-                                                At the time of physical verification it's mandatory to carry Adhar Card , College Id and Two Photos.
-
-                                            </p>
-                                        </div>
+                                        
                                     </div>
                                 </div>
                             </Card.Body>
@@ -261,7 +200,7 @@ const EventRegistrationForm = () => {
     );
 };
 
-export default EventRegistrationForm;
+export default OnlineEventReg;
 
 
 
