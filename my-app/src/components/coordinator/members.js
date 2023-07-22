@@ -6,6 +6,7 @@ import principal from '../../photo/principal.png'
 import vi from '../../photo/vi.jpg'         //facilty    
 import shweta from '../../photo/shweta.jpg'
 import ashish from '../../photo/ashish.jpg'
+import RPGupta from '../../photo/RPGupta.png'
 
 import aditya from '../../photo/aditya.jpg';
 import komal from '../../photo/komal.jpg';
@@ -55,7 +56,7 @@ const Members = () => {
                     <div className="row p-4" style={{ justifyContent: 'space-between' }} >
                         <div className="col-lg-2 col-sm-12 me-lg-3 ms-lg-3 mb-4 text-center card-animation ">
                             <div className="card" >
-                                <img src={vi} className="card-img-top" alt="..." />
+                                <img src={RPGupta} className="card-img-top" alt="..." />
                                 <div className="card-body">
                                     <p className="card-text">Prof. R.P Gupta (EE) <br></br>Chairman</p>
                                 </div>
