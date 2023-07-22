@@ -14,7 +14,7 @@ function Admin() {
             'Content-Type': 'application/json',
             Accept: 'application/json',
         };
-        axios.get(`http://localhost:1060/all`, { headers })
+        axios.get(`/all`, { headers })
             .then(response => {
                 console.log('get images successfully');
                 console.log('Response:', response.data);
