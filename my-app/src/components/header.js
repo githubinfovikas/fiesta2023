@@ -37,6 +37,9 @@ function Header() {
               <div style={{ color: 'white' }}>
                 <NavDropdown title={<span className="text-white my-auto fw-bold "><span class="hower">Notification</span></span>} id="basic-nav-dropdown">
                   <NavDropdown.Item className="navbg" href="/onlineEventReg">Online Event Registration</NavDropdown.Item>
+                  <NavDropdown.Item className="navbg" href="https://youtu.be/yvYg_nf2GUg">How to register
+                    <i className="fa-brands fa-square-youtube white fa-beat m-2" style={{ color: "#41d2a7" }} > </i>
+                  </NavDropdown.Item>
                   <NavDropdown.Item className="navbg" href="/sponser">Presentation Video</NavDropdown.Item>
                   <NavDropdown.Item className="navbg" target='blank' href="https://drive.google.com/file/d/10XvbRMR6iSnC1lrXZvJfpYkq68_8QC7Q/view?usp=sharing">Acting Drama Rulebook</NavDropdown.Item>
                   <NavDropdown.Item className="navbg" target='blank' href="https://drive.google.com/file/d/10W_3AnqToQnIZJTmU1SM908DC5m3BdyQ/view?usp=sharing">Music Dance Rulebook</NavDropdown.Item>
