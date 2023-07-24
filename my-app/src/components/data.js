@@ -430,7 +430,7 @@ const data = {
         },
         {
             id: 8,
-            imgSrc: "https://imgur.com/ktKVgAE.png",
+            imgSrc: "https://imgur.com/ktUbpIK.png",
             title: 'Gangesta – The Solo Rap ',
             about: '“Music is a language that doesn’t speak in particular words. It speaks in emotions, and if it’s in the bones, it’s in the bones.” - Keith Richards',
             rulebook:"https://drive.google.com/file/d/10xDXP7-zRd3NtBPFq80F_LygqPYFBNZn/view?usp=sharing",
