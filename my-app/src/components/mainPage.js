@@ -29,8 +29,7 @@ const MainPage = () => {
                                 <b style={{ color: 'orange', fontSize: '4vh', fontWeight: '800', textShadow: '2px 2px 5px red' }}><pre>10<sup>th</sup> TO 12<sup>th</sup> AUGUST</pre></b>
 
                             </marquee>
-                            <p style={{ color: 'white', fontSize: '2vh' }}>For all event participation per member : ₹ 900/-,
-                                For only Online Event participation per member : ₹ 199/-
+                            <p style={{ color: 'white', fontSize: '2vh' }}>Registration Fee : ₹ 900/-
                                 <a href='https://drive.google.com/file/d/12OG20cmx0GkfhDwFMg9b0L6LtXuvWDmx/view?usp=sharing' style={{ fontWeight:'600',fontSize:'3vh',marginLeft:'2vh' }}  >See More </a>
                                 
                             </p>

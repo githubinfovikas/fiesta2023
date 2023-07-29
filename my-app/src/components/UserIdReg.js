@@ -241,9 +241,9 @@ let UserIdReg = () => {
                                                 {/* <i class="fa-sharp fa-solid fa-file-export fa-2x p-1" ></i> */}
                                                 <i class="fa-duotone fa-solid fa-shirt fa-2x p-1"></i>
                                                 <Form.Select onChange={tshirtHandler} required>
-                                                    <option >Size of T-shirt</option>
-                                                    <option >S</option>
-                                                    <option  >M</option>
+                                                    <option>Size of T-shirt</option>
+                                                    <option>S</option>
+                                                    <option>M</option>
                                                     <option>L</option>
                                                     <option>XL</option>
 
@@ -265,7 +265,7 @@ let UserIdReg = () => {
                                             <div className="card" style={{ border: 'none' }} >
                                                 <img src={paytm} className="card-img-top" alt="..." />
                                                 <div className="card-body">
-                                                    <p className="card-text"><b>Pay For all event participation per member : ₹ 900/-</b>  <br/><b>Only online event participation per member : ₹ 199/-</b></p>
+                                                    <p className="card-text"><b>Pay : ₹ 900/-</b></p>
                                                 </div>
                                             </div>
 
