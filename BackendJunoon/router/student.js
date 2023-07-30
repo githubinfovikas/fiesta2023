@@ -65,7 +65,7 @@ router.post('/upload', async (req, res) => {
        if(transactionData && transactionData.trID === trID){
         res.status(402).json(
             {
-                message:"check your transaction id",
+                message:"Alreday uploaded, Check Your Email",
                 success:false,
 
             }
