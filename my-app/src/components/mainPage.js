@@ -34,7 +34,7 @@ const MainPage = () => {
                                 
                             </p>
                             <p style={{ color: 'white', fontSize: '2vh' }}>
-                                Registration last date 03 <sup>th</sup> AUGUST
+                                Registration last date 03 <sup>rd</sup> AUGUST
                             </p>
 
                             <a href='/userId-reg' className='btn btn-primary hower mx-auto m-2' style={{ width: '30vh' }} >Register </a>
