@@ -30,8 +30,7 @@ const MainPage = () => {
 
                             </marquee>
                             <p style={{ color: 'white', fontSize: '2vh' }}>Registration Fee : ₹ 900/-
-                                <a href='https://drive.google.com/file/d/12OG20cmx0GkfhDwFMg9b0L6LtXuvWDmx/view?usp=sharing' style={{ fontWeight:'600',fontSize:'3vh',marginLeft:'2vh' }}  >See More </a>
-                                
+                                <a href='https://drive.google.com/file/d/12OG20cmx0GkfhDwFMg9b0L6LtXuvWDmx/view?usp=sharing' style={{ fontWeight:'600',fontSize:'3vh',marginLeft:'2vh' }}  >See More </a><br/>
                             </p>
                             <p style={{ color: 'white', fontSize: '2vh' }}>
                                 Registration open

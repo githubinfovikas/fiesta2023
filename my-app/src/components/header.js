@@ -48,6 +48,8 @@ function Header() {
 
                 </NavDropdown>
               </div>
+
+              <Nav.Link href="/OurGuest" className="text-light nav-animation"> <b><span className="hower">Our Guest</span></b></Nav.Link>
             </Nav>
             <div className='d-flex'>
               <Nav.Link href="/userId-reg" className='text-light nav-animation ' variant='outline-success'><b className='btn btn-danger hower' style={{ width: '30vh' }}>Register</b></Nav.Link>

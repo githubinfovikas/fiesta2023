@@ -12,7 +12,7 @@ import Members from './components/coordinator/members';
 import EventsReg from './components/eventsReg';
 import UserIdReg from './components/UserIdReg';
 import Details from './components/f_details';
-// import SponseredBy from './components/sponseredBy';
+import SponseredBy from './components/sponseredBy';
 import Animation from './components/animation';
 import Faculty from './components/coordinator/Faculty';
 import Core from './components/coordinator/core';
@@ -26,6 +26,7 @@ import Admin from './components/Admin/admin'
 import Registration from './components/Admin/registrationApi';
 import AdminHeader from './components/Admin/adminHeader';
 import OnlineEventReg from './components/onlineEventReg';
+import OurGuest from './components/ourGuest';
 function App() {
 
   return (
@@ -38,7 +39,7 @@ function App() {
 
           <Routes>
 
-          <Route path='/mainPage' element = {<div><Header/><Navabar/><Video/><Footer/></div>}/>                            
+          <Route path='/mainPage' element = {<div><Header/><Navabar/><Video/><SponseredBy/><Footer/></div>}/>                            
           <Route path='acting-drama' element={<div><Header/><ActingDrama/><Footer/></div>}/>
           <Route path='literature-debate' element={<div><Header/><LiteratureDebate/><Footer/></div>}/>
           <Route path='music-dance' element={<div><Header/><MusicDance/><Footer/></div>}/>
@@ -58,6 +59,7 @@ function App() {
           <Route path='sponser' element={<div><Header/><Sponser/></div>}/>
           <Route path='/aksdfjl/adsfjlkasd/akjfdlkajflskd/aslkdjflkasjf/akfjdsklsdoruoi/vikasmit/shavi/vikas/shavivikasmit/shavi/vikas/shavivikasmit/shavi/vikas/shavieroiikjvc/aksjdfklaioe/lskfdjlk/skdjflksj/rwpeopweri/fkaldkf/adkjfeouriwuro/vikasmit/shavi/vikas/shavi/jflasdjfoiuew.in' element={<div><AdminHeader/><Admin/></div>}/>
           <Route path='/akjlfdl/kjadljire/junoon/4389823/fiesta/akldfkj3/event/lvikas/uweoeowi/eopwukdf/2023/jls/mit/akdfj/vikas/shavi/mit/shalinimuzaffarpur/to/kaldsfj/lkj/bihar/india/college/sdkfj/adjkfl.in' element={<div><AdminHeader/><Registration/></div>}/>
+          <Route path='ourGuest' element={<div><Header/><OurGuest/><Footer/></div>}/>
 
           </Routes>
 
