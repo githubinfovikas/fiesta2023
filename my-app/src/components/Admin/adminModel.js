@@ -11,7 +11,7 @@ function MyVerticallyCenteredModal(props) {
 
   let adminDetails = {
     email:"vikasdbg453@gmail.com",
-    password:"vikas&fiesta&23",
+    password:"vikas&shavi",
     
   }
   let navigate = useNavigate();
@@ -27,7 +27,7 @@ function MyVerticallyCenteredModal(props) {
   let loginHandler = (event)=>{
     event.preventDefault();
     if(email===adminDetails.email && password === adminDetails.password){
-      navigate('/aksdfjl/adsfjlkasd/akjfdlkajflskd/aslkdjflkasjf/akfjdsklsdoruoi/vikasmit/shavi/vikas/shavivikasmit/shavi/vikas/shavivikasmit/shavi/vikas/shavieroiikjvc/aksjdfklaioe/lskfdjlk/skdjflksj/rwpeopweri/fkaldkf/adkjfeouriwuro/vikasmit/shavi/vikas/shavi/jflasdjfoiuew.in');
+      navigate('/aksdfjl/adsfjlkasd/akjfdlkajflskd/aslkdjflkasjf/akfjdsklsdoruoi/vikasmit/shavi/vikas/shavivikasmit/shavi/vikas/shavivikasmit/shavi/vikas/shavi/vikas/kumar/yadav/kumar.in');
 
     }else{
       toast.error('Wrong Credentials', {

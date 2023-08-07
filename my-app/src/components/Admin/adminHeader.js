@@ -34,8 +34,8 @@ function AdminHeader() {
               </div>
               <div style={{ color: 'white' }}>
                 <NavDropdown title={<span className="text-white my-auto fw-bold "><span class="hower">Admin</span></span>} id="basic-nav-dropdown">
-                  <NavDropdown.Item className="navbg" href="/aksdfjl/adsfjlkasd/akjfdlkajflskd/aslkdjflkasjf/akfjdsklsdoruoi/vikasmit/shavi/vikas/shavivikasmit/shavi/vikas/shavivikasmit/shavi/vikas/shavieroiikjvc/aksjdfklaioe/lskfdjlk/skdjflksj/rwpeopweri/fkaldkf/adkjfeouriwuro/vikasmit/shavi/vikas/shavi/jflasdjfoiuew.in">Registration</NavDropdown.Item>
-                  <NavDropdown.Item className="navbg" href="/akjlfdl/kjadljire/junoon/4389823/fiesta/akldfkj3/event/lvikas/uweoeowi/eopwukdf/2023/jls/mit/akdfj/vikas/shavi/mit/shalinimuzaffarpur/to/kaldsfj/lkj/bihar/india/college/sdkfj/adjkfl.in">Event</NavDropdown.Item>
+                  <NavDropdown.Item className="navbg" href="/akjlfdl/kjadljire/junoon/4389823/fiesta/akldfkj3/event/lvikas/uweoeowi/eopwukdf/2023/jls/mit/akdfj/vivikas/kumar/kumar/dfafd/adf/adfasd/fasdf/fas/f/asdfa/fdasdf/asdf/d.in">Registration</NavDropdown.Item>
+                  <NavDropdown.Item className="navbg" href="/aksdfjl/adsfjlkasd/akjfdlkajflskd/aslkdjflkasjf/akfjdsklsdoruoi/vikasmit/shavi/vikas/shavivikasmit/shavi/vikas/shavivikasmit/shavi/vikas/shavi/vikas/kumar/yadav/kumar.in">Event</NavDropdown.Item>
                 </NavDropdown>
               </div>
 

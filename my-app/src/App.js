@@ -57,8 +57,8 @@ function App() {
           <Route path='juniorCoordinator' element={<div><Header/><Junior/><Footer/></div>}/>
           <Route path='form-fill' element={<div><Header/><FormFill/></div>}/>
           <Route path='sponser' element={<div><Header/><Sponser/></div>}/>
-          <Route path='/aksdfjl/adsfjlkasd/akjfdlkajflskd/aslkdjflkasjf/akfjdsklsdoruoi/vikasmit/shavi/vikas/shavivikasmit/shavi/vikas/shavivikasmit/shavi/vikas/shavieroiikjvc/aksjdfklaioe/lskfdjlk/skdjflksj/rwpeopweri/fkaldkf/adkjfeouriwuro/vikasmit/shavi/vikas/shavi/jflasdjfoiuew.in' element={<div><AdminHeader/><Admin/></div>}/>
-          <Route path='/akjlfdl/kjadljire/junoon/4389823/fiesta/akldfkj3/event/lvikas/uweoeowi/eopwukdf/2023/jls/mit/akdfj/vikas/shavi/mit/shalinimuzaffarpur/to/kaldsfj/lkj/bihar/india/college/sdkfj/adjkfl.in' element={<div><AdminHeader/><Registration/></div>}/>
+          <Route path='/aksdfjl/adsfjlkasd/akjfdlkajflskd/aslkdjflkasjf/akfjdsklsdoruoi/vikasmit/shavi/vikas/shavivikasmit/shavi/vikas/shavivikasmit/shavi/vikas/shavi/vikas/kumar/yadav/kumar.in' element={<div><AdminHeader/><Admin/></div>}/>
+          <Route path='/akjlfdl/kjadljire/junoon/4389823/fiesta/akldfkj3/event/lvikas/uweoeowi/eopwukdf/2023/jls/mit/akdfj/vivikas/kumar/kumar/dfafd/adf/adfasd/fasdf/fas/f/asdfa/fdasdf/asdf/d.in' element={<div><AdminHeader/><Registration/></div>}/>
           <Route path='ourGuest' element={<div><Header/><OurGuest/><Footer/></div>}/>
 
           </Routes>
