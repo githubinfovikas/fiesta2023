@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.b57f4a72.css",
-    "main.js": "/static/js/main.abd45d05.js",
+    "main.js": "/static/js/main.ceee05df.js",
     "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
     "static/media/vikastech.png": "/static/media/vikastech.394a9c34a32a31218046.png",
     "static/media/gautamtech.png": "/static/media/gautamtech.79d3fdda6dd0db1f94c0.png",
@@ -18,7 +18,6 @@
     "static/media/saqib.jpg": "/static/media/saqib.1de59e4747cae0767639.jpg",
     "static/media/RPGupta.png": "/static/media/RPGupta.5185128948bf96524fee.png",
     "static/media/fiesta mask final logo.png": "/static/media/fiesta mask final logo.40a76b3d7926bf695e1a.png",
-    "static/media/mitmaai.png": "/static/media/mitmaai.3074fbd2ca2196b1f97f.png",
     "static/media/acting_drama.jpg": "/static/media/acting_drama.f11599be48e5c65a8607.jpg",
     "static/media/literature_debate.jpg": "/static/media/literature_debate.5297f0d63d81752339f9.jpg",
     "static/media/music_dance.jpg": "/static/media/music_dance.9bbd52e3aef323c1128c.jpg",
@@ -34,11 +33,11 @@
     "static/media/ashish.jpg": "/static/media/ashish.c434145ee78eea2159ba.jpg",
     "index.html": "/index.html",
     "main.b57f4a72.css.map": "/static/css/main.b57f4a72.css.map",
-    "main.abd45d05.js.map": "/static/js/main.abd45d05.js.map",
+    "main.ceee05df.js.map": "/static/js/main.ceee05df.js.map",
     "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b57f4a72.css",
-    "static/js/main.abd45d05.js"
+    "static/js/main.ceee05df.js"
   ]
 }

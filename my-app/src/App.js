@@ -12,7 +12,7 @@ import Members from './components/coordinator/members';
 import EventsReg from './components/eventsReg';
 import UserIdReg from './components/UserIdReg';
 import Details from './components/f_details';
-import SponseredBy from './components/sponseredBy';
+// import SponseredBy from './components/sponseredBy';
 import Animation from './components/animation';
 import Faculty from './components/coordinator/Faculty';
 import Core from './components/coordinator/core';
@@ -39,7 +39,7 @@ function App() {
 
           <Routes>
 
-          <Route path='/mainPage' element = {<div><Header/><Navabar/><Video/><SponseredBy/><Footer/></div>}/>                            
+          <Route path='/mainPage' element = {<div><Header/><Navabar/><Video/><Footer/></div>}/>                            
           <Route path='acting-drama' element={<div><Header/><ActingDrama/><Footer/></div>}/>
           <Route path='literature-debate' element={<div><Header/><LiteratureDebate/><Footer/></div>}/>
           <Route path='music-dance' element={<div><Header/><MusicDance/><Footer/></div>}/>
